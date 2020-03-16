@@ -18,54 +18,50 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    UIImageView *imgView = [[UIImageView alloc] init];
-       imgView.contentMode =     UIViewContentModeScaleAspectFill;
-       imgView.image = [UIImage imageNamed:@"launch"];
-       imgView.frame = [UIScreen mainScreen].bounds;
-       [self.view addSubview:imgView];
-    
-    UIScrollView *PEHIVURSheSC = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH , SCREEN_HEIGHT)];
-    PEHIVURSheSC.contentSize = CGSizeMake(PEHIVURSheSC.frame.size.width,PEHIVURSheSC.frame.size.height + 1);
-    PEHIVURSheSC.backgroundColor = [UIColor clearColor];
-    PEHIVURSheSC.showsVerticalScrollIndicator = NO;
-    [self.view addSubview:PEHIVURSheSC];
-    
-    
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"animal.plist" ofType:nil];
-    NSArray *a = [[NSArray alloc]initWithContentsOfFile:filePath];
-    NSMutableArray*dataSource = [NSMutableArray array];
-    
-    for (NSDictionary *dic in a) {
-            NSString *name = dic[@"name"];
-               
-        [dataSource addObject:name];
-               //NSString *fileName = [NSString stringWithFormat:@"%@@2x.png",name];
-            
-    }
-    
-    
-      NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"resources" ofType:@"bundle"];
-    
-    for (NSInteger i = 0; i < dataSource.count; i++) {
-        UIImageView *PEHIVURSheIV = [[UIImageView alloc]initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/3 * (i%3), [UIScreen mainScreen].bounds.size.width/3 * (i/3), [UIScreen mainScreen].bounds.size.width/3 , [UIScreen mainScreen].bounds.size.width/3 )];
+    NSDictionary *info = [[NSBundle mainBundle] infoDictionary];
+    self.title = [info objectForKey:@"CFBundleName"];
 
-         
-        NSLog(@"=====================%@",dataSource[i]);
-        
-          NSString *name = dataSource[i];
+    
+    UIScrollView *scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH , SCREEN_HEIGHT)];
+    scrollView.contentSize = CGSizeMake(scrollView.frame.size.width,scrollView.frame.size.height);
+    scrollView.backgroundColor = [UIColor whiteColor];
+    scrollView.showsVerticalScrollIndicator = NO;
+    [self.view addSubview:scrollView];
+    
+    
+    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"resources" ofType:@"bundle"];
+    NSArray *array = [[NSArray alloc]initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"animal.plist" ofType:nil]];
 
-         NSString *fileName = [[bundlePath stringByAppendingPathComponent:@"animal"] stringByAppendingPathComponent:name];
-         [PEHIVURSheIV setImage:[UIImage imageWithContentsOfFile:fileName]];
-        [PEHIVURSheSC addSubview:PEHIVURSheIV];
-        PEHIVURSheIV.tag = i;
-        PEHIVURSheIV.userInteractionEnabled = YES;
-       // [PEHIVURSheIV addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(PEHIVURSheTap:)]];
-        
-        if (PEHIVURSheIV.frame.origin.y + PEHIVURSheIV.frame.size.height > PEHIVURSheSC.contentSize.height) {
-            PEHIVURSheSC.contentSize = CGSizeMake(PEHIVURSheSC.frame.size.width,PEHIVURSheIV.frame.origin.y + PEHIVURSheIV.frame.size.height + 1);
-        }
-    }
+    
+    [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+           NSInteger i = idx;
+           NSString *name = obj[@"name"];
+           UIImageView * animalImage = [[UIImageView alloc]initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/3.25 * (i%3)+10, [UIScreen mainScreen].bounds.size.width/3.25 * (i/3)+15, [UIScreen mainScreen].bounds.size.width/3.25 , [UIScreen mainScreen].bounds.size.width/3.25 )];
+           NSString *fileName = [[bundlePath stringByAppendingPathComponent:@"animal"] stringByAppendingPathComponent:name];
+           [ animalImage setImage:[UIImage imageWithContentsOfFile:fileName]];
+           [scrollView addSubview: animalImage];
+           animalImage.tag = i;
+           animalImage.userInteractionEnabled = YES;
+           [animalImage addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(sheTap:)]];
+           if ( animalImage.frame.origin.y +  animalImage.frame.size.height > scrollView.contentSize.height) {
+                      scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, animalImage.frame.origin.y +  animalImage.frame.size.height + 1);
+            }
+    }];
+    
+
+    
+    
+
+}
+
+
+
+-(void)sheTap:(UITapGestureRecognizer *)PEHIVURSheTap {
+    UIImageView *PEHIVURSheIV = (UIImageView *)PEHIVURSheTap.view;
+    NSArray *activityItems = @[@"NakitHowHuade",PEHIVURSheIV.image,@""];
+    UIActivityViewController *activityController=[[UIActivityViewController alloc]initWithActivityItems:activityItems applicationActivities:nil];
+    activityController.excludedActivityTypes = @[UIActivityTypePrint, UIActivityTypeCopyToPasteboard,UIActivityTypeAssignToContact,UIActivityTypeSaveToCameraRoll];
+    [self presentViewController:activityController animated:YES completion:nil];
 }
 
 

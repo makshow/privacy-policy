@@ -29,7 +29,7 @@ CGRect rectNav = self.navigationController.navigationBar.frame;\
 
 
 typedef NS_ENUM(UInt32, UIColorRGB) {
-       appColor         = 0xD44000,
+       appColor         = 0x78B910
 
 };
 
