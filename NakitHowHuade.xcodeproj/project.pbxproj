@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,10 @@
 		8452DD94241F740B00672F32 /* NakitHowHuadeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8452DD93241F740B00672F32 /* NakitHowHuadeUITests.m */; };
 		8452DDA3241F75E900672F32 /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA2241F75E900672F32 /* resources.bundle */; };
 		8452DDAE241F75F200672F32 /* animal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA7241F75F200672F32 /* animal.plist */; };
+		8452DE48241FB37500672F32 /* e.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8452DE47241FB37500672F32 /* e.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8452DE4C241FB37500672F32 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 8452DE4B241FB37500672F32 /* Stickers.xcstickers */; };
+		8452DE4D241FB37500672F32 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 8452DE4B241FB37500672F32 /* Stickers.xcstickers */; };
+		AFA435FDFF392EEEFCD2B3D5 /* libPods-NakitHowHuade.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE2333E7BD2CFD662FDF817 /* libPods-NakitHowHuade.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +38,28 @@
 			remoteGlobalIDString = 8452DD68241F740800672F32;
 			remoteInfo = NakitHowHuade;
 		};
+		8452DE49241FB37500672F32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8452DD61241F740800672F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8452DE46241FB37500672F32;
+			remoteInfo = "e StickerPackExtension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8452DE51241FB37500672F32 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8452DE48241FB37500672F32 /* e.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8452DD69241F740800672F32 /* NakitHowHuade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NakitHowHuade.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,13 +82,27 @@
 		8452DDA7241F75F200672F32 /* animal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = animal.plist; sourceTree = "<group>"; };
 		8452DDDE241F960200672F32 /* NakitToolsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NakitToolsHeader.h; sourceTree = "<group>"; };
 		8452DDF1241FAB2700672F32 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		8452DE44241FB37500672F32 /* e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = e.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8452DE47241FB37500672F32 /* e.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = e.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8452DE4B241FB37500672F32 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
+		A0A3017E79B7F3254768ACA1 /* Pods-NakitHowHuade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NakitHowHuade.release.xcconfig"; path = "Target Support Files/Pods-NakitHowHuade/Pods-NakitHowHuade.release.xcconfig"; sourceTree = "<group>"; };
+		A220EBACB24F36CC223CB79F /* Pods-NakitHowHuade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NakitHowHuade.debug.xcconfig"; path = "Target Support Files/Pods-NakitHowHuade/Pods-NakitHowHuade.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE2333E7BD2CFD662FDF817 /* libPods-NakitHowHuade.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NakitHowHuade.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		36C3023C067A03BE646710E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8452DD66241F740800672F32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA435FDFF392EEEFCD2B3D5 /* libPods-NakitHowHuade.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +120,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B37A03CF75812CEB938DBAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38F21AC957F6566DA84A870D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A220EBACB24F36CC223CB79F /* Pods-NakitHowHuade.debug.xcconfig */,
+				A0A3017E79B7F3254768ACA1 /* Pods-NakitHowHuade.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8452DD60241F740800672F32 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +147,7 @@
 				8452DD92241F740B00672F32 /* NakitHowHuadeUITests */,
 				8452DDF0241FAB2700672F32 /* Frameworks */,
 				8452DD6A241F740800672F32 /* Products */,
+				38F21AC957F6566DA84A870D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +157,8 @@
 				8452DD69241F740800672F32 /* NakitHowHuade.app */,
 				8452DD84241F740B00672F32 /* NakitHowHuadeTests.xctest */,
 				8452DD8F241F740B00672F32 /* NakitHowHuadeUITests.xctest */,
+				8452DE44241FB37500672F32 /* e.app */,
+				8452DE47241FB37500672F32 /* e.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +202,7 @@
 		8452DDA1241F75D900672F32 /* HocResource */ = {
 			isa = PBXGroup;
 			children = (
+				8452DE4B241FB37500672F32 /* Stickers.xcstickers */,
 				8452DDA4241F75F200672F32 /* Z_plist */,
 				8452DDA2241F75E900672F32 /* resources.bundle */,
 			);
@@ -162,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				8452DDF1241FAB2700672F32 /* Messages.framework */,
+				FAE2333E7BD2CFD662FDF817 /* libPods-NakitHowHuade.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8452DD98241F740B00672F32 /* Build configuration list for PBXNativeTarget "NakitHowHuade" */;
 			buildPhases = (
+				371203B6988C286B1984FE3F /* [CP] Check Pods Manifest.lock */,
 				8452DD65241F740800672F32 /* Sources */,
 				8452DD66241F740800672F32 /* Frameworks */,
 				8452DD67241F740800672F32 /* Resources */,
+				66F89ACA1EE7ED48335EC91C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +284,40 @@
 			productReference = 8452DD8F241F740B00672F32 /* NakitHowHuadeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		8452DE43241FB37500672F32 /* e */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8452DE52241FB37500672F32 /* Build configuration list for PBXNativeTarget "e" */;
+			buildPhases = (
+				8452DE42241FB37500672F32 /* Resources */,
+				8452DE51241FB37500672F32 /* Embed App Extensions */,
+				B37A03CF75812CEB938DBAD5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8452DE4A241FB37500672F32 /* PBXTargetDependency */,
+			);
+			name = e;
+			productName = e;
+			productReference = 8452DE44241FB37500672F32 /* e.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		8452DE46241FB37500672F32 /* e StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8452DE4E241FB37500672F32 /* Build configuration list for PBXNativeTarget "e StickerPackExtension" */;
+			buildPhases = (
+				8452DE45241FB37500672F32 /* Resources */,
+				36C3023C067A03BE646710E6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "e StickerPackExtension";
+			productName = "e StickerPackExtension";
+			productReference = 8452DE47241FB37500672F32 /* e.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -242,6 +338,12 @@
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = 8452DD68241F740800672F32;
 					};
+					8452DE43241FB37500672F32 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8452DE46241FB37500672F32 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 8452DD64241F740800672F32 /* Build configuration list for PBXProject "NakitHowHuade" */;
@@ -260,6 +362,8 @@
 				8452DD68241F740800672F32 /* NakitHowHuade */,
 				8452DD83241F740B00672F32 /* NakitHowHuadeTests */,
 				8452DD8E241F740B00672F32 /* NakitHowHuadeUITests */,
+				8452DE43241FB37500672F32 /* e */,
+				8452DE46241FB37500672F32 /* e StickerPackExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -291,7 +395,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8452DE42241FB37500672F32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8452DE4D241FB37500672F32 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452DE45241FB37500672F32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8452DE4C241FB37500672F32 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		371203B6988C286B1984FE3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NakitHowHuade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F89ACA1EE7ED48335EC91C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NakitHowHuade/Pods-NakitHowHuade-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NakitHowHuade/Pods-NakitHowHuade-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NakitHowHuade/Pods-NakitHowHuade-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8452DD65241F740800672F32 /* Sources */ = {
@@ -332,6 +494,11 @@
 			isa = PBXTargetDependency;
 			target = 8452DD68241F740800672F32 /* NakitHowHuade */;
 			targetProxy = 8452DD90241F740B00672F32 /* PBXContainerItemProxy */;
+		};
+		8452DE4A241FB37500672F32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8452DE46241FB37500672F32 /* e StickerPackExtension */;
+			targetProxy = 8452DE49241FB37500672F32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -467,6 +634,7 @@
 		};
 		8452DD99241F740B00672F32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A220EBACB24F36CC223CB79F /* Pods-NakitHowHuade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +652,7 @@
 		};
 		8452DD9A241F740B00672F32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A3017E79B7F3254768ACA1 /* Pods-NakitHowHuade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -571,6 +740,60 @@
 			};
 			name = Release;
 		};
+		8452DE4F241FB37500672F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "e StickerPackExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.e.StickerPackExtension;
+				PRODUCT_NAME = e;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8452DE50241FB37500672F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "e StickerPackExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.e.StickerPackExtension;
+				PRODUCT_NAME = e;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8452DE53241FB37500672F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = e/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.e;
+				PRODUCT_NAME = e;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8452DE54241FB37500672F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = e/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.e;
+				PRODUCT_NAME = e;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -606,6 +829,24 @@
 			buildConfigurations = (
 				8452DD9F241F740B00672F32 /* Debug */,
 				8452DDA0241F740B00672F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8452DE4E241FB37500672F32 /* Build configuration list for PBXNativeTarget "e StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8452DE4F241FB37500672F32 /* Debug */,
+				8452DE50241FB37500672F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8452DE52241FB37500672F32 /* Build configuration list for PBXNativeTarget "e" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8452DE53241FB37500672F32 /* Debug */,
+				8452DE54241FB37500672F32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

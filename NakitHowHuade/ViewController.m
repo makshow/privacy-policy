@@ -28,11 +28,8 @@
     scrollView.showsVerticalScrollIndicator = NO;
     [self.view addSubview:scrollView];
     
-    
     NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"resources" ofType:@"bundle"];
     NSArray *array = [[NSArray alloc]initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"animal.plist" ofType:nil]];
-
-    
     [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
            NSInteger i = idx;
            NSString *name = obj[@"name"];
@@ -44,21 +41,17 @@
            animalImage.userInteractionEnabled = YES;
            [animalImage addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(sheTap:)]];
            if ( animalImage.frame.origin.y +  animalImage.frame.size.height > scrollView.contentSize.height) {
-                      scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, animalImage.frame.origin.y +  animalImage.frame.size.height + 1);
+               scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, animalImage.frame.origin.y +  animalImage.frame.size.height + 1);
             }
     }];
     
-
-    
-    
-
 }
 
 
 
--(void)sheTap:(UITapGestureRecognizer *)PEHIVURSheTap {
-    UIImageView *PEHIVURSheIV = (UIImageView *)PEHIVURSheTap.view;
-    NSArray *activityItems = @[@"NakitHowHuade",PEHIVURSheIV.image,@""];
+-(void)sheTap:(UITapGestureRecognizer *)tapImageView {
+    UIImageView *sharImage = (UIImageView *)tapImageView.view;
+    NSArray *activityItems = @[@"NakitHowHuade",sharImage.image,@""];
     UIActivityViewController *activityController=[[UIActivityViewController alloc]initWithActivityItems:activityItems applicationActivities:nil];
     activityController.excludedActivityTypes = @[UIActivityTypePrint, UIActivityTypeCopyToPasteboard,UIActivityTypeAssignToContact,UIActivityTypeSaveToCameraRoll];
     [self presentViewController:activityController animated:YES completion:nil];

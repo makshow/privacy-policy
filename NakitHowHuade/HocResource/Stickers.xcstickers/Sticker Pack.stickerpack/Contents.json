@@ -1,0 +1,107 @@
+{
+  "stickers" : [
+    {
+      "filename" : "animal_1@2x.sticker"
+    },
+    {
+      "filename" : "animal_2@2x.sticker"
+    },
+    {
+      "filename" : "animal_3@2x.sticker"
+    },
+    {
+      "filename" : "animal_4@2x.sticker"
+    },
+    {
+      "filename" : "animal_5@2x.sticker"
+    },
+    {
+      "filename" : "animal_6@2x.sticker"
+    },
+    {
+      "filename" : "animal_7@2x.sticker"
+    },
+    {
+      "filename" : "animal_8@2x.sticker"
+    },
+    {
+      "filename" : "animal_9@2x.sticker"
+    },
+    {
+      "filename" : "animal_10@2x.sticker"
+    },
+    {
+      "filename" : "animal_11@2x.sticker"
+    },
+    {
+      "filename" : "animal_12@2x.sticker"
+    },
+    {
+      "filename" : "animal_13@2x.sticker"
+    },
+    {
+      "filename" : "animal_14@2x.sticker"
+    },
+    {
+      "filename" : "animal_15@2x.sticker"
+    },
+    {
+      "filename" : "animal_16@2x.sticker"
+    },
+    {
+      "filename" : "animal_17@2x.sticker"
+    },
+    {
+      "filename" : "animal_18@2x.sticker"
+    },
+    {
+      "filename" : "animal_19@2x.sticker"
+    },
+    {
+      "filename" : "animal_20@2x.sticker"
+    },
+    {
+      "filename" : "animal_21@2x.sticker"
+    },
+    {
+      "filename" : "animal_22@2x.sticker"
+    },
+    {
+      "filename" : "animal_23@2x.sticker"
+    },
+    {
+      "filename" : "animal_24@2x.sticker"
+    },
+    {
+      "filename" : "animal_25@2x.sticker"
+    },
+    {
+      "filename" : "animal_26@2x.sticker"
+    },
+    {
+      "filename" : "animal_27@2x.sticker"
+    },
+    {
+      "filename" : "animal_28@2x.sticker"
+    },
+    {
+      "filename" : "animal_29@2x.sticker"
+    },
+    {
+      "filename" : "animal_30@2x.sticker"
+    },
+    {
+      "filename" : "animal_31@2x.sticker"
+    },
+    {
+      "filename" : "animal_32@2x.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}
