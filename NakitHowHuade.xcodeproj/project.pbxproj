@@ -16,13 +16,8 @@
 		8452DD89241F740B00672F32 /* NakitHowHuadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8452DD88241F740B00672F32 /* NakitHowHuadeTests.m */; };
 		8452DD94241F740B00672F32 /* NakitHowHuadeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8452DD93241F740B00672F32 /* NakitHowHuadeUITests.m */; };
 		8452DDA3241F75E900672F32 /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA2241F75E900672F32 /* resources.bundle */; };
-		8452DDAC241F75F200672F32 /* house.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA5241F75F200672F32 /* house.plist */; };
-		8452DDAD241F75F200672F32 /* people.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA6241F75F200672F32 /* people.plist */; };
 		8452DDAE241F75F200672F32 /* animal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA7241F75F200672F32 /* animal.plist */; };
-		8452DDAF241F75F200672F32 /* science.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA8241F75F200672F32 /* science.plist */; };
-		8452DDB0241F75F200672F32 /* food.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA9241F75F200672F32 /* food.plist */; };
-		8452DDB1241F75F200672F32 /* music.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDAA241F75F200672F32 /* music.plist */; };
-		8452DDB2241F75F200672F32 /* space.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDAB241F75F200672F32 /* space.plist */; };
+		8452DDE0241F9D3100672F32 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDDF241F9D3100672F32 /* launch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +55,9 @@
 		8452DD93241F740B00672F32 /* NakitHowHuadeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NakitHowHuadeUITests.m; sourceTree = "<group>"; };
 		8452DD95241F740B00672F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8452DDA2241F75E900672F32 /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resources.bundle; sourceTree = "<group>"; };
-		8452DDA5241F75F200672F32 /* house.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = house.plist; sourceTree = "<group>"; };
-		8452DDA6241F75F200672F32 /* people.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = people.plist; sourceTree = "<group>"; };
 		8452DDA7241F75F200672F32 /* animal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = animal.plist; sourceTree = "<group>"; };
-		8452DDA8241F75F200672F32 /* science.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = science.plist; sourceTree = "<group>"; };
-		8452DDA9241F75F200672F32 /* food.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = food.plist; sourceTree = "<group>"; };
-		8452DDAA241F75F200672F32 /* music.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = music.plist; sourceTree = "<group>"; };
-		8452DDAB241F75F200672F32 /* space.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = space.plist; sourceTree = "<group>"; };
+		8452DDDE241F960200672F32 /* NakitToolsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NakitToolsHeader.h; sourceTree = "<group>"; };
+		8452DDDF241F9D3100672F32 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +112,7 @@
 				8452DD6D241F740800672F32 /* AppDelegate.m */,
 				8452DD72241F740800672F32 /* ViewController.h */,
 				8452DD73241F740800672F32 /* ViewController.m */,
+				8452DDDE241F960200672F32 /* NakitToolsHeader.h */,
 				8452DD75241F740800672F32 /* Main.storyboard */,
 				8452DD78241F740B00672F32 /* Assets.xcassets */,
 				8452DD7A241F740B00672F32 /* LaunchScreen.storyboard */,
@@ -152,6 +144,7 @@
 		8452DDA1241F75D900672F32 /* HocResource */ = {
 			isa = PBXGroup;
 			children = (
+				8452DDDF241F9D3100672F32 /* launch.png */,
 				8452DDA4241F75F200672F32 /* Z_plist */,
 				8452DDA2241F75E900672F32 /* resources.bundle */,
 			);
@@ -161,13 +154,7 @@
 		8452DDA4241F75F200672F32 /* Z_plist */ = {
 			isa = PBXGroup;
 			children = (
-				8452DDA5241F75F200672F32 /* house.plist */,
-				8452DDA6241F75F200672F32 /* people.plist */,
 				8452DDA7241F75F200672F32 /* animal.plist */,
-				8452DDA8241F75F200672F32 /* science.plist */,
-				8452DDA9241F75F200672F32 /* food.plist */,
-				8452DDAA241F75F200672F32 /* music.plist */,
-				8452DDAB241F75F200672F32 /* space.plist */,
 			);
 			path = Z_plist;
 			sourceTree = "<group>";
@@ -275,15 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8452DDE0241F9D3100672F32 /* launch.png in Resources */,
 				8452DD7C241F740B00672F32 /* LaunchScreen.storyboard in Resources */,
-				8452DDAF241F75F200672F32 /* science.plist in Resources */,
-				8452DDAD241F75F200672F32 /* people.plist in Resources */,
-				8452DDB2241F75F200672F32 /* space.plist in Resources */,
 				8452DD79241F740B00672F32 /* Assets.xcassets in Resources */,
-				8452DDB0241F75F200672F32 /* food.plist in Resources */,
 				8452DD77241F740800672F32 /* Main.storyboard in Resources */,
-				8452DDB1241F75F200672F32 /* music.plist in Resources */,
-				8452DDAC241F75F200672F32 /* house.plist in Resources */,
 				8452DDA3241F75E900672F32 /* resources.bundle in Resources */,
 				8452DDAE241F75F200672F32 /* animal.plist in Resources */,
 			);
@@ -490,7 +472,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mental.howhuade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -507,7 +489,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mental.howhuade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
