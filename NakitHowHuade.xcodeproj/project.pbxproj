@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8452DD6E241F740800672F32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8452DD6D241F740800672F32 /* AppDelegate.m */; };
+		8452DD74241F740800672F32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8452DD73241F740800672F32 /* ViewController.m */; };
+		8452DD77241F740800672F32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8452DD75241F740800672F32 /* Main.storyboard */; };
+		8452DD79241F740B00672F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8452DD78241F740B00672F32 /* Assets.xcassets */; };
+		8452DD7C241F740B00672F32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8452DD7A241F740B00672F32 /* LaunchScreen.storyboard */; };
+		8452DD7F241F740B00672F32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8452DD7E241F740B00672F32 /* main.m */; };
+		8452DD89241F740B00672F32 /* NakitHowHuadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8452DD88241F740B00672F32 /* NakitHowHuadeTests.m */; };
+		8452DD94241F740B00672F32 /* NakitHowHuadeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8452DD93241F740B00672F32 /* NakitHowHuadeUITests.m */; };
+		8452DDA3241F75E900672F32 /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA2241F75E900672F32 /* resources.bundle */; };
+		8452DDAC241F75F200672F32 /* house.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA5241F75F200672F32 /* house.plist */; };
+		8452DDAD241F75F200672F32 /* people.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA6241F75F200672F32 /* people.plist */; };
+		8452DDAE241F75F200672F32 /* animal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA7241F75F200672F32 /* animal.plist */; };
+		8452DDAF241F75F200672F32 /* science.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA8241F75F200672F32 /* science.plist */; };
+		8452DDB0241F75F200672F32 /* food.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA9241F75F200672F32 /* food.plist */; };
+		8452DDB1241F75F200672F32 /* music.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDAA241F75F200672F32 /* music.plist */; };
+		8452DDB2241F75F200672F32 /* space.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDAB241F75F200672F32 /* space.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8452DD85241F740B00672F32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8452DD61241F740800672F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8452DD68241F740800672F32;
+			remoteInfo = NakitHowHuade;
+		};
+		8452DD90241F740B00672F32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8452DD61241F740800672F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8452DD68241F740800672F32;
+			remoteInfo = NakitHowHuade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8452DD69241F740800672F32 /* NakitHowHuade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NakitHowHuade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8452DD6C241F740800672F32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8452DD6D241F740800672F32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8452DD72241F740800672F32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8452DD73241F740800672F32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8452DD76241F740800672F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8452DD78241F740B00672F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8452DD7B241F740B00672F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8452DD7D241F740B00672F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8452DD7E241F740B00672F32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8452DD84241F740B00672F32 /* NakitHowHuadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NakitHowHuadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8452DD88241F740B00672F32 /* NakitHowHuadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NakitHowHuadeTests.m; sourceTree = "<group>"; };
+		8452DD8A241F740B00672F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8452DD8F241F740B00672F32 /* NakitHowHuadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NakitHowHuadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8452DD93241F740B00672F32 /* NakitHowHuadeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NakitHowHuadeUITests.m; sourceTree = "<group>"; };
+		8452DD95241F740B00672F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8452DDA2241F75E900672F32 /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resources.bundle; sourceTree = "<group>"; };
+		8452DDA5241F75F200672F32 /* house.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = house.plist; sourceTree = "<group>"; };
+		8452DDA6241F75F200672F32 /* people.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = people.plist; sourceTree = "<group>"; };
+		8452DDA7241F75F200672F32 /* animal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = animal.plist; sourceTree = "<group>"; };
+		8452DDA8241F75F200672F32 /* science.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = science.plist; sourceTree = "<group>"; };
+		8452DDA9241F75F200672F32 /* food.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = food.plist; sourceTree = "<group>"; };
+		8452DDAA241F75F200672F32 /* music.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = music.plist; sourceTree = "<group>"; };
+		8452DDAB241F75F200672F32 /* space.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = space.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8452DD66241F740800672F32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452DD81241F740B00672F32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452DD8C241F740B00672F32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8452DD60241F740800672F32 = {
+			isa = PBXGroup;
+			children = (
+				8452DD6B241F740800672F32 /* NakitHowHuade */,
+				8452DD87241F740B00672F32 /* NakitHowHuadeTests */,
+				8452DD92241F740B00672F32 /* NakitHowHuadeUITests */,
+				8452DD6A241F740800672F32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8452DD6A241F740800672F32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8452DD69241F740800672F32 /* NakitHowHuade.app */,
+				8452DD84241F740B00672F32 /* NakitHowHuadeTests.xctest */,
+				8452DD8F241F740B00672F32 /* NakitHowHuadeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8452DD6B241F740800672F32 /* NakitHowHuade */ = {
+			isa = PBXGroup;
+			children = (
+				8452DD6C241F740800672F32 /* AppDelegate.h */,
+				8452DD6D241F740800672F32 /* AppDelegate.m */,
+				8452DD72241F740800672F32 /* ViewController.h */,
+				8452DD73241F740800672F32 /* ViewController.m */,
+				8452DD75241F740800672F32 /* Main.storyboard */,
+				8452DD78241F740B00672F32 /* Assets.xcassets */,
+				8452DD7A241F740B00672F32 /* LaunchScreen.storyboard */,
+				8452DD7D241F740B00672F32 /* Info.plist */,
+				8452DD7E241F740B00672F32 /* main.m */,
+				8452DDA1241F75D900672F32 /* HocResource */,
+			);
+			path = NakitHowHuade;
+			sourceTree = "<group>";
+		};
+		8452DD87241F740B00672F32 /* NakitHowHuadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8452DD88241F740B00672F32 /* NakitHowHuadeTests.m */,
+				8452DD8A241F740B00672F32 /* Info.plist */,
+			);
+			path = NakitHowHuadeTests;
+			sourceTree = "<group>";
+		};
+		8452DD92241F740B00672F32 /* NakitHowHuadeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8452DD93241F740B00672F32 /* NakitHowHuadeUITests.m */,
+				8452DD95241F740B00672F32 /* Info.plist */,
+			);
+			path = NakitHowHuadeUITests;
+			sourceTree = "<group>";
+		};
+		8452DDA1241F75D900672F32 /* HocResource */ = {
+			isa = PBXGroup;
+			children = (
+				8452DDA4241F75F200672F32 /* Z_plist */,
+				8452DDA2241F75E900672F32 /* resources.bundle */,
+			);
+			path = HocResource;
+			sourceTree = "<group>";
+		};
+		8452DDA4241F75F200672F32 /* Z_plist */ = {
+			isa = PBXGroup;
+			children = (
+				8452DDA5241F75F200672F32 /* house.plist */,
+				8452DDA6241F75F200672F32 /* people.plist */,
+				8452DDA7241F75F200672F32 /* animal.plist */,
+				8452DDA8241F75F200672F32 /* science.plist */,
+				8452DDA9241F75F200672F32 /* food.plist */,
+				8452DDAA241F75F200672F32 /* music.plist */,
+				8452DDAB241F75F200672F32 /* space.plist */,
+			);
+			path = Z_plist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8452DD68241F740800672F32 /* NakitHowHuade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8452DD98241F740B00672F32 /* Build configuration list for PBXNativeTarget "NakitHowHuade" */;
+			buildPhases = (
+				8452DD65241F740800672F32 /* Sources */,
+				8452DD66241F740800672F32 /* Frameworks */,
+				8452DD67241F740800672F32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NakitHowHuade;
+			productName = NakitHowHuade;
+			productReference = 8452DD69241F740800672F32 /* NakitHowHuade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8452DD83241F740B00672F32 /* NakitHowHuadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8452DD9B241F740B00672F32 /* Build configuration list for PBXNativeTarget "NakitHowHuadeTests" */;
+			buildPhases = (
+				8452DD80241F740B00672F32 /* Sources */,
+				8452DD81241F740B00672F32 /* Frameworks */,
+				8452DD82241F740B00672F32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8452DD86241F740B00672F32 /* PBXTargetDependency */,
+			);
+			name = NakitHowHuadeTests;
+			productName = NakitHowHuadeTests;
+			productReference = 8452DD84241F740B00672F32 /* NakitHowHuadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8452DD8E241F740B00672F32 /* NakitHowHuadeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8452DD9E241F740B00672F32 /* Build configuration list for PBXNativeTarget "NakitHowHuadeUITests" */;
+			buildPhases = (
+				8452DD8B241F740B00672F32 /* Sources */,
+				8452DD8C241F740B00672F32 /* Frameworks */,
+				8452DD8D241F740B00672F32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8452DD91241F740B00672F32 /* PBXTargetDependency */,
+			);
+			name = NakitHowHuadeUITests;
+			productName = NakitHowHuadeUITests;
+			productReference = 8452DD8F241F740B00672F32 /* NakitHowHuadeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8452DD61241F740800672F32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = howhuade;
+				TargetAttributes = {
+					8452DD68241F740800672F32 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8452DD83241F740B00672F32 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8452DD68241F740800672F32;
+					};
+					8452DD8E241F740B00672F32 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8452DD68241F740800672F32;
+					};
+				};
+			};
+			buildConfigurationList = 8452DD64241F740800672F32 /* Build configuration list for PBXProject "NakitHowHuade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8452DD60241F740800672F32;
+			productRefGroup = 8452DD6A241F740800672F32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8452DD68241F740800672F32 /* NakitHowHuade */,
+				8452DD83241F740B00672F32 /* NakitHowHuadeTests */,
+				8452DD8E241F740B00672F32 /* NakitHowHuadeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8452DD67241F740800672F32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8452DD7C241F740B00672F32 /* LaunchScreen.storyboard in Resources */,
+				8452DDAF241F75F200672F32 /* science.plist in Resources */,
+				8452DDAD241F75F200672F32 /* people.plist in Resources */,
+				8452DDB2241F75F200672F32 /* space.plist in Resources */,
+				8452DD79241F740B00672F32 /* Assets.xcassets in Resources */,
+				8452DDB0241F75F200672F32 /* food.plist in Resources */,
+				8452DD77241F740800672F32 /* Main.storyboard in Resources */,
+				8452DDB1241F75F200672F32 /* music.plist in Resources */,
+				8452DDAC241F75F200672F32 /* house.plist in Resources */,
+				8452DDA3241F75E900672F32 /* resources.bundle in Resources */,
+				8452DDAE241F75F200672F32 /* animal.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452DD82241F740B00672F32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452DD8D241F740B00672F32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8452DD65241F740800672F32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8452DD74241F740800672F32 /* ViewController.m in Sources */,
+				8452DD6E241F740800672F32 /* AppDelegate.m in Sources */,
+				8452DD7F241F740B00672F32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452DD80241F740B00672F32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8452DD89241F740B00672F32 /* NakitHowHuadeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452DD8B241F740B00672F32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8452DD94241F740B00672F32 /* NakitHowHuadeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8452DD86241F740B00672F32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8452DD68241F740800672F32 /* NakitHowHuade */;
+			targetProxy = 8452DD85241F740B00672F32 /* PBXContainerItemProxy */;
+		};
+		8452DD91241F740B00672F32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8452DD68241F740800672F32 /* NakitHowHuade */;
+			targetProxy = 8452DD90241F740B00672F32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8452DD75241F740800672F32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8452DD76241F740800672F32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8452DD7A241F740B00672F32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8452DD7B241F740B00672F32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8452DD96241F740B00672F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8452DD97241F740B00672F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8452DD99241F740B00672F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NakitHowHuade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.howhuade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8452DD9A241F740B00672F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NakitHowHuade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.howhuade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8452DD9C241F740B00672F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NakitHowHuadeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.NakitHowHuadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NakitHowHuade.app/NakitHowHuade";
+			};
+			name = Debug;
+		};
+		8452DD9D241F740B00672F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NakitHowHuadeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.NakitHowHuadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NakitHowHuade.app/NakitHowHuade";
+			};
+			name = Release;
+		};
+		8452DD9F241F740B00672F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NakitHowHuadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.NakitHowHuadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NakitHowHuade;
+			};
+			name = Debug;
+		};
+		8452DDA0241F740B00672F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NakitHowHuadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.NakitHowHuadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NakitHowHuade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8452DD64241F740800672F32 /* Build configuration list for PBXProject "NakitHowHuade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8452DD96241F740B00672F32 /* Debug */,
+				8452DD97241F740B00672F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8452DD98241F740B00672F32 /* Build configuration list for PBXNativeTarget "NakitHowHuade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8452DD99241F740B00672F32 /* Debug */,
+				8452DD9A241F740B00672F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8452DD9B241F740B00672F32 /* Build configuration list for PBXNativeTarget "NakitHowHuadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8452DD9C241F740B00672F32 /* Debug */,
+				8452DD9D241F740B00672F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8452DD9E241F740B00672F32 /* Build configuration list for PBXNativeTarget "NakitHowHuadeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8452DD9F241F740B00672F32 /* Debug */,
+				8452DDA0241F740B00672F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8452DD61241F740800672F32 /* Project object */;
+}
