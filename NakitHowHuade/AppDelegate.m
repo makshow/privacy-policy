@@ -18,15 +18,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self setNavigationBarColor];
+    [AVOSCloud  setApplicationId:APP_ID clientKey:APP_KEY serverURLString:API_URL];
     return YES;
 }
 
 
 
 -(void)setNavigationBarColor{
-       [[UITabBar appearance] setTintColor:UIColorFromRGB( appColor)];
+       [[UITabBar appearance] setTintColor:UIColorFromRGB(appColor)];
        [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(appColor)];
        [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
        [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys: [UIColor whiteColor], NSForegroundColorAttributeName,[UIFont fontWithName:@"PingFang-SC-Medium" size: 20], NSFontAttributeName, nil]];
 }
+
 @end

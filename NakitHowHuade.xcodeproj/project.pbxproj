@@ -20,6 +20,8 @@
 		8452DE48241FB37500672F32 /* e.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8452DE47241FB37500672F32 /* e.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8452DE4C241FB37500672F32 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 8452DE4B241FB37500672F32 /* Stickers.xcstickers */; };
 		8452DE4D241FB37500672F32 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 8452DE4B241FB37500672F32 /* Stickers.xcstickers */; };
+		8452DE5B241FC22200672F32 /* AllowShadyGreedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8452DE58241FC22200672F32 /* AllowShadyGreedController.xib */; };
+		8452DE5C241FC22200672F32 /* AllowShadyGreedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8452DE5A241FC22200672F32 /* AllowShadyGreedController.m */; };
 		AFA435FDFF392EEEFCD2B3D5 /* libPods-NakitHowHuade.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE2333E7BD2CFD662FDF817 /* libPods-NakitHowHuade.a */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +87,9 @@
 		8452DE44241FB37500672F32 /* e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = e.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8452DE47241FB37500672F32 /* e.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = e.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8452DE4B241FB37500672F32 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
+		8452DE58241FC22200672F32 /* AllowShadyGreedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllowShadyGreedController.xib; sourceTree = "<group>"; };
+		8452DE59241FC22200672F32 /* AllowShadyGreedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllowShadyGreedController.h; sourceTree = "<group>"; };
+		8452DE5A241FC22200672F32 /* AllowShadyGreedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllowShadyGreedController.m; sourceTree = "<group>"; };
 		A0A3017E79B7F3254768ACA1 /* Pods-NakitHowHuade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NakitHowHuade.release.xcconfig"; path = "Target Support Files/Pods-NakitHowHuade/Pods-NakitHowHuade.release.xcconfig"; sourceTree = "<group>"; };
 		A220EBACB24F36CC223CB79F /* Pods-NakitHowHuade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NakitHowHuade.debug.xcconfig"; path = "Target Support Files/Pods-NakitHowHuade/Pods-NakitHowHuade.debug.xcconfig"; sourceTree = "<group>"; };
 		FAE2333E7BD2CFD662FDF817 /* libPods-NakitHowHuade.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NakitHowHuade.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +181,9 @@
 				8452DD7A241F740B00672F32 /* LaunchScreen.storyboard */,
 				8452DD7D241F740B00672F32 /* Info.plist */,
 				8452DD7E241F740B00672F32 /* main.m */,
+				8452DE59241FC22200672F32 /* AllowShadyGreedController.h */,
+				8452DE5A241FC22200672F32 /* AllowShadyGreedController.m */,
+				8452DE58241FC22200672F32 /* AllowShadyGreedController.xib */,
 				8452DDA1241F75D900672F32 /* HocResource */,
 			);
 			path = NakitHowHuade;
@@ -378,6 +386,7 @@
 				8452DD77241F740800672F32 /* Main.storyboard in Resources */,
 				8452DDA3241F75E900672F32 /* resources.bundle in Resources */,
 				8452DDAE241F75F200672F32 /* animal.plist in Resources */,
+				8452DE5B241FC22200672F32 /* AllowShadyGreedController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8452DD74241F740800672F32 /* ViewController.m in Sources */,
+				8452DE5C241FC22200672F32 /* AllowShadyGreedController.m in Sources */,
 				8452DD6E241F740800672F32 /* AppDelegate.m in Sources */,
 				8452DD7F241F740B00672F32 /* main.m in Sources */,
 			);
