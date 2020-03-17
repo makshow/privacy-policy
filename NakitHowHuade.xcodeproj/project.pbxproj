@@ -17,11 +17,11 @@
 		8452DD94241F740B00672F32 /* NakitHowHuadeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8452DD93241F740B00672F32 /* NakitHowHuadeUITests.m */; };
 		8452DDA3241F75E900672F32 /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA2241F75E900672F32 /* resources.bundle */; };
 		8452DDAE241F75F200672F32 /* animal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452DDA7241F75F200672F32 /* animal.plist */; };
-		8452DE48241FB37500672F32 /* e.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8452DE47241FB37500672F32 /* e.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8452DE4C241FB37500672F32 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 8452DE4B241FB37500672F32 /* Stickers.xcstickers */; };
-		8452DE4D241FB37500672F32 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 8452DE4B241FB37500672F32 /* Stickers.xcstickers */; };
 		8452DE5B241FC22200672F32 /* AllowShadyGreedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8452DE58241FC22200672F32 /* AllowShadyGreedController.xib */; };
 		8452DE5C241FC22200672F32 /* AllowShadyGreedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8452DE5A241FC22200672F32 /* AllowShadyGreedController.m */; };
+		845501F42420B74100F29A16 /* howhuade StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 845501F32420B74100F29A16 /* howhuade StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		845501F82420B74100F29A16 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 845501F72420B74100F29A16 /* Stickers.xcstickers */; };
+		845501F92420B74100F29A16 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 845501F72420B74100F29A16 /* Stickers.xcstickers */; };
 		AFA435FDFF392EEEFCD2B3D5 /* libPods-NakitHowHuade.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE2333E7BD2CFD662FDF817 /* libPods-NakitHowHuade.a */; };
 /* End PBXBuildFile section */
 
@@ -40,23 +40,23 @@
 			remoteGlobalIDString = 8452DD68241F740800672F32;
 			remoteInfo = NakitHowHuade;
 		};
-		8452DE49241FB37500672F32 /* PBXContainerItemProxy */ = {
+		845501F52420B74100F29A16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8452DD61241F740800672F32 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8452DE46241FB37500672F32;
-			remoteInfo = "e StickerPackExtension";
+			remoteGlobalIDString = 845501F22420B74100F29A16;
+			remoteInfo = "howhuade StickerPackExtension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8452DE51241FB37500672F32 /* Embed App Extensions */ = {
+		845501FD2420B74100F29A16 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				8452DE48241FB37500672F32 /* e.appex in Embed App Extensions */,
+				845501F42420B74100F29A16 /* howhuade StickerPackExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,25 +84,25 @@
 		8452DDA7241F75F200672F32 /* animal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = animal.plist; sourceTree = "<group>"; };
 		8452DDDE241F960200672F32 /* NakitToolsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NakitToolsHeader.h; sourceTree = "<group>"; };
 		8452DDF1241FAB2700672F32 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
-		8452DE44241FB37500672F32 /* e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = e.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8452DE47241FB37500672F32 /* e.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = e.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		8452DE4B241FB37500672F32 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
 		8452DE58241FC22200672F32 /* AllowShadyGreedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllowShadyGreedController.xib; sourceTree = "<group>"; };
 		8452DE59241FC22200672F32 /* AllowShadyGreedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllowShadyGreedController.h; sourceTree = "<group>"; };
 		8452DE5A241FC22200672F32 /* AllowShadyGreedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllowShadyGreedController.m; sourceTree = "<group>"; };
+		845501D12420B45A00F29A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845501D32420B45A00F29A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845501DE2420B45B00F29A16 /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		845501DF2420B45B00F29A16 /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		845501E22420B45B00F29A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		845501E42420B45B00F29A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845501E62420B45B00F29A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845501F02420B74100F29A16 /* howhuade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = howhuade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845501F32420B74100F29A16 /* howhuade StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "howhuade StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845501F72420B74100F29A16 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
 		A0A3017E79B7F3254768ACA1 /* Pods-NakitHowHuade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NakitHowHuade.release.xcconfig"; path = "Target Support Files/Pods-NakitHowHuade/Pods-NakitHowHuade.release.xcconfig"; sourceTree = "<group>"; };
 		A220EBACB24F36CC223CB79F /* Pods-NakitHowHuade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NakitHowHuade.debug.xcconfig"; path = "Target Support Files/Pods-NakitHowHuade/Pods-NakitHowHuade.debug.xcconfig"; sourceTree = "<group>"; };
 		FAE2333E7BD2CFD662FDF817 /* libPods-NakitHowHuade.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NakitHowHuade.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36C3023C067A03BE646710E6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8452DD66241F740800672F32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,13 +119,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8452DD8C241F740B00672F32 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B37A03CF75812CEB938DBAD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -150,6 +143,8 @@
 				8452DD6B241F740800672F32 /* NakitHowHuade */,
 				8452DD87241F740B00672F32 /* NakitHowHuadeTests */,
 				8452DD92241F740B00672F32 /* NakitHowHuadeUITests */,
+				845501D02420B45900F29A16 /* howhuade */,
+				845501DD2420B45B00F29A16 /* howhuade MessagesExtension */,
 				8452DDF0241FAB2700672F32 /* Frameworks */,
 				8452DD6A241F740800672F32 /* Products */,
 				38F21AC957F6566DA84A870D /* Pods */,
@@ -162,8 +157,8 @@
 				8452DD69241F740800672F32 /* NakitHowHuade.app */,
 				8452DD84241F740B00672F32 /* NakitHowHuadeTests.xctest */,
 				8452DD8F241F740B00672F32 /* NakitHowHuadeUITests.xctest */,
-				8452DE44241FB37500672F32 /* e.app */,
-				8452DE47241FB37500672F32 /* e.appex */,
+				845501F02420B74100F29A16 /* howhuade.app */,
+				845501F32420B74100F29A16 /* howhuade StickerPackExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +179,7 @@
 				8452DE59241FC22200672F32 /* AllowShadyGreedController.h */,
 				8452DE5A241FC22200672F32 /* AllowShadyGreedController.m */,
 				8452DE58241FC22200672F32 /* AllowShadyGreedController.xib */,
+				845501F72420B74100F29A16 /* Stickers.xcstickers */,
 				8452DDA1241F75D900672F32 /* HocResource */,
 			);
 			path = NakitHowHuade;
@@ -210,7 +206,6 @@
 		8452DDA1241F75D900672F32 /* HocResource */ = {
 			isa = PBXGroup;
 			children = (
-				8452DE4B241FB37500672F32 /* Stickers.xcstickers */,
 				8452DDA4241F75F200672F32 /* Z_plist */,
 				8452DDA2241F75E900672F32 /* resources.bundle */,
 			);
@@ -232,6 +227,27 @@
 				FAE2333E7BD2CFD662FDF817 /* libPods-NakitHowHuade.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845501D02420B45900F29A16 /* howhuade */ = {
+			isa = PBXGroup;
+			children = (
+				845501D12420B45A00F29A16 /* Assets.xcassets */,
+				845501D32420B45A00F29A16 /* Info.plist */,
+			);
+			path = howhuade;
+			sourceTree = "<group>";
+		};
+		845501DD2420B45B00F29A16 /* howhuade MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				845501DE2420B45B00F29A16 /* MessagesViewController.h */,
+				845501DF2420B45B00F29A16 /* MessagesViewController.m */,
+				845501E12420B45B00F29A16 /* MainInterface.storyboard */,
+				845501E42420B45B00F29A16 /* Assets.xcassets */,
+				845501E62420B45B00F29A16 /* Info.plist */,
+			);
+			path = "howhuade MessagesExtension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,38 +308,36 @@
 			productReference = 8452DD8F241F740B00672F32 /* NakitHowHuadeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		8452DE43241FB37500672F32 /* e */ = {
+		845501EF2420B74100F29A16 /* howhuade */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8452DE52241FB37500672F32 /* Build configuration list for PBXNativeTarget "e" */;
+			buildConfigurationList = 845501FE2420B74100F29A16 /* Build configuration list for PBXNativeTarget "howhuade" */;
 			buildPhases = (
-				8452DE42241FB37500672F32 /* Resources */,
-				8452DE51241FB37500672F32 /* Embed App Extensions */,
-				B37A03CF75812CEB938DBAD5 /* Frameworks */,
+				845501EE2420B74100F29A16 /* Resources */,
+				845501FD2420B74100F29A16 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8452DE4A241FB37500672F32 /* PBXTargetDependency */,
+				845501F62420B74100F29A16 /* PBXTargetDependency */,
 			);
-			name = e;
-			productName = e;
-			productReference = 8452DE44241FB37500672F32 /* e.app */;
+			name = howhuade;
+			productName = howhuade;
+			productReference = 845501F02420B74100F29A16 /* howhuade.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
-		8452DE46241FB37500672F32 /* e StickerPackExtension */ = {
+		845501F22420B74100F29A16 /* howhuade StickerPackExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8452DE4E241FB37500672F32 /* Build configuration list for PBXNativeTarget "e StickerPackExtension" */;
+			buildConfigurationList = 845501FA2420B74100F29A16 /* Build configuration list for PBXNativeTarget "howhuade StickerPackExtension" */;
 			buildPhases = (
-				8452DE45241FB37500672F32 /* Resources */,
-				36C3023C067A03BE646710E6 /* Frameworks */,
+				845501F12420B74100F29A16 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "e StickerPackExtension";
-			productName = "e StickerPackExtension";
-			productReference = 8452DE47241FB37500672F32 /* e.appex */;
+			name = "howhuade StickerPackExtension";
+			productName = "howhuade StickerPackExtension";
+			productReference = 845501F32420B74100F29A16 /* howhuade StickerPackExtension.appex */;
 			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 /* End PBXNativeTarget section */
@@ -346,10 +360,10 @@
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = 8452DD68241F740800672F32;
 					};
-					8452DE43241FB37500672F32 = {
+					845501EF2420B74100F29A16 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					8452DE46241FB37500672F32 = {
+					845501F22420B74100F29A16 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -370,8 +384,8 @@
 				8452DD68241F740800672F32 /* NakitHowHuade */,
 				8452DD83241F740B00672F32 /* NakitHowHuadeTests */,
 				8452DD8E241F740B00672F32 /* NakitHowHuadeUITests */,
-				8452DE43241FB37500672F32 /* e */,
-				8452DE46241FB37500672F32 /* e StickerPackExtension */,
+				845501EF2420B74100F29A16 /* howhuade */,
+				845501F22420B74100F29A16 /* howhuade StickerPackExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -404,19 +418,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8452DE42241FB37500672F32 /* Resources */ = {
+		845501EE2420B74100F29A16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8452DE4D241FB37500672F32 /* Stickers.xcstickers in Resources */,
+				845501F92420B74100F29A16 /* Stickers.xcstickers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8452DE45241FB37500672F32 /* Resources */ = {
+		845501F12420B74100F29A16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8452DE4C241FB37500672F32 /* Stickers.xcstickers in Resources */,
+				845501F82420B74100F29A16 /* Stickers.xcstickers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,10 +519,10 @@
 			target = 8452DD68241F740800672F32 /* NakitHowHuade */;
 			targetProxy = 8452DD90241F740B00672F32 /* PBXContainerItemProxy */;
 		};
-		8452DE4A241FB37500672F32 /* PBXTargetDependency */ = {
+		845501F62420B74100F29A16 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8452DE46241FB37500672F32 /* e StickerPackExtension */;
-			targetProxy = 8452DE49241FB37500672F32 /* PBXContainerItemProxy */;
+			target = 845501F22420B74100F29A16 /* howhuade StickerPackExtension */;
+			targetProxy = 845501F52420B74100F29A16 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -527,6 +541,14 @@
 				8452DD7B241F740B00672F32 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		845501E12420B45B00F29A16 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845501E22420B45B00F29A16 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -648,6 +670,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 8C5JHZ8LG9;
 				INFOPLIST_FILE = NakitHowHuade/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -667,6 +690,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 8C5JHZ8LG9;
 				INFOPLIST_FILE = NakitHowHuade/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -754,60 +778,64 @@
 			};
 			name = Release;
 		};
-		8452DE4F241FB37500672F32 /* Debug */ = {
+		845501FB2420B74100F29A16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 8C5JHZ8LG9;
-				INFOPLIST_FILE = "e StickerPackExtension/Info.plist";
+				INFOPLIST_FILE = "howhuade StickerPackExtension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mental.e.StickerPackExtension;
-				PRODUCT_NAME = e;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.howhuade.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		8452DE50241FB37500672F32 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8C5JHZ8LG9;
-				INFOPLIST_FILE = "e StickerPackExtension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mental.e.StickerPackExtension;
-				PRODUCT_NAME = e;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		8452DE53241FB37500672F32 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8C5JHZ8LG9;
-				INFOPLIST_FILE = e/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mental.e;
-				PRODUCT_NAME = e;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8452DE54241FB37500672F32 /* Release */ = {
+		845501FC2420B74100F29A16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 8C5JHZ8LG9;
-				INFOPLIST_FILE = e/Info.plist;
+				INFOPLIST_FILE = "howhuade StickerPackExtension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mental.e;
-				PRODUCT_NAME = e;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.howhuade.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		845501FF2420B74100F29A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 8C5JHZ8LG9;
+				INFOPLIST_FILE = howhuade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.howhuade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845502002420B74100F29A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 8C5JHZ8LG9;
+				INFOPLIST_FILE = howhuade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mental.howhuade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -851,20 +879,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8452DE4E241FB37500672F32 /* Build configuration list for PBXNativeTarget "e StickerPackExtension" */ = {
+		845501FA2420B74100F29A16 /* Build configuration list for PBXNativeTarget "howhuade StickerPackExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8452DE4F241FB37500672F32 /* Debug */,
-				8452DE50241FB37500672F32 /* Release */,
+				845501FB2420B74100F29A16 /* Debug */,
+				845501FC2420B74100F29A16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8452DE52241FB37500672F32 /* Build configuration list for PBXNativeTarget "e" */ = {
+		845501FE2420B74100F29A16 /* Build configuration list for PBXNativeTarget "howhuade" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8452DE53241FB37500672F32 /* Debug */,
-				8452DE54241FB37500672F32 /* Release */,
+				845501FF2420B74100F29A16 /* Debug */,
+				845502002420B74100F29A16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
