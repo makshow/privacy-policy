@@ -42,7 +42,7 @@ AllowShadyGreedController *webVC;
 
 + (void)showAlertFile {
 
-    
+    [AVOSCloud setNetworkTimeoutInterval:5];
     AVQuery *query = [AVQuery queryWithClassName:@"Todo"];
     __weak typeof(self) weakSelf = self;
     [query getObjectInBackgroundWithId:@"5e608d0d5620714cccb4795f" block:^(AVObject * _Nullable object, NSError * _Nullable error) {
