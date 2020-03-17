@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C29911C241A88DD00E399D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C29911B241A88DD00E399D3 /* AppDelegate.m */; };
+		3C29911F241A88DD00E399D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C29911E241A88DD00E399D3 /* ViewController.m */; };
+		3C299122241A88DD00E399D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C299120241A88DD00E399D3 /* Main.storyboard */; };
+		3C299124241A88DE00E399D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C299123241A88DE00E399D3 /* Assets.xcassets */; };
+		3C299127241A88DE00E399D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C299125241A88DE00E399D3 /* LaunchScreen.storyboard */; };
+		3C29912A241A88DE00E399D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C299129241A88DE00E399D3 /* main.m */; };
+		3C299135241A891D00E399D3 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C299134241A891D00E399D3 /* Stickers.xcassets */; };
+		3C299139241A891D00E399D3 /* k.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C299132241A891C00E399D3 /* k.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C299142241A893D00E399D3 /* NekiceZhento.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C299140241A893D00E399D3 /* NekiceZhento.m */; };
+		3C299143241A893D00E399D3 /* NekiceZhento.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C299141241A893D00E399D3 /* NekiceZhento.xib */; };
+		3C299148241A895900E399D3 /* HolucaLoxia.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C299146241A895900E399D3 /* HolucaLoxia.m */; };
+		3C299149241A895900E399D3 /* HolucaLoxia.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C299147241A895900E399D3 /* HolucaLoxia.xib */; };
+		3C299169241A897800E399D3 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C29914B241A897800E399D3 /* 8.png */; };
+		3C29916A241A897800E399D3 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C29914C241A897800E399D3 /* 9.png */; };
+		3C29916B241A897800E399D3 /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C29914D241A897800E399D3 /* 14.png */; };
+		3C29916C241A897800E399D3 /* 28.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C29914E241A897800E399D3 /* 28.png */; };
+		3C29916D241A897800E399D3 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C29914F241A897800E399D3 /* 29.png */; };
+		3C29916E241A897800E399D3 /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299150241A897800E399D3 /* 15.png */; };
+		3C29916F241A897800E399D3 /* 17.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299151241A897800E399D3 /* 17.png */; };
+		3C299170241A897800E399D3 /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299152241A897800E399D3 /* 16.png */; };
+		3C299171241A897800E399D3 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299153241A897800E399D3 /* 12.png */; };
+		3C299172241A897800E399D3 /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299154241A897800E399D3 /* 13.png */; };
+		3C299173241A897800E399D3 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299155241A897800E399D3 /* 11.png */; };
+		3C299174241A897800E399D3 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299156241A897800E399D3 /* 10.png */; };
+		3C299175241A897800E399D3 /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299157241A897800E399D3 /* 21.png */; };
+		3C299176241A897800E399D3 /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299158241A897800E399D3 /* 20.png */; };
+		3C299177241A897800E399D3 /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299159241A897800E399D3 /* 22.png */; };
+		3C299178241A897800E399D3 /* 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C29915A241A897800E399D3 /* 23.png */; };
+		3C299179241A897800E399D3 /* 27.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C29915B241A897800E399D3 /* 27.png */; };
+		3C29917A241A897800E399D3 /* 26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C29915C241A897800E399D3 /* 26.png */; };
+		3C29917B241A897800E399D3 /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C29915D241A897800E399D3 /* 18.png */; };
+		3C29917C241A897800E399D3 /* 30.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C29915E241A897800E399D3 /* 30.png */; };
+		3C29917D241A897800E399D3 /* 24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C29915F241A897800E399D3 /* 24.png */; };
+		3C29917E241A897800E399D3 /* 25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299160241A897800E399D3 /* 25.png */; };
+		3C29917F241A897800E399D3 /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299161241A897800E399D3 /* 19.png */; };
+		3C299180241A897800E399D3 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299162241A897800E399D3 /* 4.png */; };
+		3C299181241A897800E399D3 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299163241A897800E399D3 /* 5.png */; };
+		3C299182241A897800E399D3 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299164241A897800E399D3 /* 7.png */; };
+		3C299183241A897800E399D3 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299165241A897800E399D3 /* 6.png */; };
+		3C299184241A897800E399D3 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299166241A897800E399D3 /* 2.png */; };
+		3C299185241A897800E399D3 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299167241A897800E399D3 /* 3.png */; };
+		3C299186241A897800E399D3 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299168241A897800E399D3 /* 1.png */; };
+		3C29918A241A898400E399D3 /* CeasoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C299189241A898400E399D3 /* CeasoCell.m */; };
+		42B45E4C6FBFEF136250312A /* libPods-NekiceHoluca.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 490E6F56955AEB008E3F070F /* libPods-NekiceHoluca.a */; };
+		8423DBD8241E29250014B277 /* AllowShadyGreedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423DBD6241E29250014B277 /* AllowShadyGreedController.xib */; };
+		8423DBD9241E29250014B277 /* AllowShadyGreedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423DBD7241E29250014B277 /* AllowShadyGreedController.m */; };
+		8423DBDC241E29AE0014B277 /* DissolveAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423DBDB241E29AE0014B277 /* DissolveAtom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C299137241A891D00E399D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C29910F241A88DD00E399D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C299131241A891C00E399D3;
+			remoteInfo = k;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C29913D241A891D00E399D3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3C299139241A891D00E399D3 /* k.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		226A460518173569524815FE /* Pods-NekiceHoluca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekiceHoluca.debug.xcconfig"; path = "Target Support Files/Pods-NekiceHoluca/Pods-NekiceHoluca.debug.xcconfig"; sourceTree = "<group>"; };
+		3C299117241A88DD00E399D3 /* NekiceHoluca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NekiceHoluca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C29911A241A88DD00E399D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C29911B241A88DD00E399D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C29911D241A88DD00E399D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C29911E241A88DD00E399D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C299121241A88DD00E399D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C299123241A88DE00E399D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C299126241A88DE00E399D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C299128241A88DE00E399D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C299129241A88DE00E399D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C299132241A891C00E399D3 /* k.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = k.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C299134241A891D00E399D3 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		3C299136241A891D00E399D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C29913F241A893D00E399D3 /* NekiceZhento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NekiceZhento.h; sourceTree = "<group>"; };
+		3C299140241A893D00E399D3 /* NekiceZhento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NekiceZhento.m; sourceTree = "<group>"; };
+		3C299141241A893D00E399D3 /* NekiceZhento.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NekiceZhento.xib; sourceTree = "<group>"; };
+		3C299145241A895900E399D3 /* HolucaLoxia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HolucaLoxia.h; sourceTree = "<group>"; };
+		3C299146241A895900E399D3 /* HolucaLoxia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HolucaLoxia.m; sourceTree = "<group>"; };
+		3C299147241A895900E399D3 /* HolucaLoxia.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HolucaLoxia.xib; sourceTree = "<group>"; };
+		3C29914B241A897800E399D3 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		3C29914C241A897800E399D3 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		3C29914D241A897800E399D3 /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		3C29914E241A897800E399D3 /* 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 28.png; sourceTree = "<group>"; };
+		3C29914F241A897800E399D3 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		3C299150241A897800E399D3 /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		3C299151241A897800E399D3 /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17.png; sourceTree = "<group>"; };
+		3C299152241A897800E399D3 /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
+		3C299153241A897800E399D3 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		3C299154241A897800E399D3 /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		3C299155241A897800E399D3 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		3C299156241A897800E399D3 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		3C299157241A897800E399D3 /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
+		3C299158241A897800E399D3 /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20.png; sourceTree = "<group>"; };
+		3C299159241A897800E399D3 /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		3C29915A241A897800E399D3 /* 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 23.png; sourceTree = "<group>"; };
+		3C29915B241A897800E399D3 /* 27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 27.png; sourceTree = "<group>"; };
+		3C29915C241A897800E399D3 /* 26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26.png; sourceTree = "<group>"; };
+		3C29915D241A897800E399D3 /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18.png; sourceTree = "<group>"; };
+		3C29915E241A897800E399D3 /* 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30.png; sourceTree = "<group>"; };
+		3C29915F241A897800E399D3 /* 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24.png; sourceTree = "<group>"; };
+		3C299160241A897800E399D3 /* 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 25.png; sourceTree = "<group>"; };
+		3C299161241A897800E399D3 /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 19.png; sourceTree = "<group>"; };
+		3C299162241A897800E399D3 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		3C299163241A897800E399D3 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		3C299164241A897800E399D3 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		3C299165241A897800E399D3 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		3C299166241A897800E399D3 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3C299167241A897800E399D3 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3C299168241A897800E399D3 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3C299188241A898400E399D3 /* CeasoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CeasoCell.h; sourceTree = "<group>"; };
+		3C299189241A898400E399D3 /* CeasoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeasoCell.m; sourceTree = "<group>"; };
+		490E6F56955AEB008E3F070F /* libPods-NekiceHoluca.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NekiceHoluca.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8423DBD5241E29250014B277 /* AllowShadyGreedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllowShadyGreedController.h; sourceTree = "<group>"; };
+		8423DBD6241E29250014B277 /* AllowShadyGreedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllowShadyGreedController.xib; sourceTree = "<group>"; };
+		8423DBD7241E29250014B277 /* AllowShadyGreedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllowShadyGreedController.m; sourceTree = "<group>"; };
+		8423DBDA241E29AE0014B277 /* DissolveAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DissolveAtom.h; sourceTree = "<group>"; };
+		8423DBDB241E29AE0014B277 /* DissolveAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DissolveAtom.m; sourceTree = "<group>"; };
+		D4EBFB066D5EE7D4C69A1E0F /* Pods-NekiceHoluca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekiceHoluca.release.xcconfig"; path = "Target Support Files/Pods-NekiceHoluca/Pods-NekiceHoluca.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C299114241A88DD00E399D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B45E4C6FBFEF136250312A /* libPods-NekiceHoluca.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C993E6D3566099D7FC1D53F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0275F3C2F78B26A427FCFAE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				226A460518173569524815FE /* Pods-NekiceHoluca.debug.xcconfig */,
+				D4EBFB066D5EE7D4C69A1E0F /* Pods-NekiceHoluca.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C29910E241A88DD00E399D3 = {
+			isa = PBXGroup;
+			children = (
+				3C299119241A88DD00E399D3 /* NekiceHoluca */,
+				3C299133241A891C00E399D3 /* k */,
+				3C299118241A88DD00E399D3 /* Products */,
+				0275F3C2F78B26A427FCFAE2 /* Pods */,
+				6D6142D59A8316B9A4344D31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C299118241A88DD00E399D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C299117241A88DD00E399D3 /* NekiceHoluca.app */,
+				3C299132241A891C00E399D3 /* k.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C299119241A88DD00E399D3 /* NekiceHoluca */ = {
+			isa = PBXGroup;
+			children = (
+				3C29911A241A88DD00E399D3 /* AppDelegate.h */,
+				3C29911B241A88DD00E399D3 /* AppDelegate.m */,
+				3C299187241A897A00E399D3 /* Cea */,
+				3C299144241A894800E399D3 /* Hoc */,
+				3C29913E241A892900E399D3 /* Nek */,
+				3C29911D241A88DD00E399D3 /* ViewController.h */,
+				3C29911E241A88DD00E399D3 /* ViewController.m */,
+				3C299120241A88DD00E399D3 /* Main.storyboard */,
+				3C299123241A88DE00E399D3 /* Assets.xcassets */,
+				3C299125241A88DE00E399D3 /* LaunchScreen.storyboard */,
+				3C299128241A88DE00E399D3 /* Info.plist */,
+				3C299129241A88DE00E399D3 /* main.m */,
+			);
+			path = NekiceHoluca;
+			sourceTree = "<group>";
+		};
+		3C299133241A891C00E399D3 /* k */ = {
+			isa = PBXGroup;
+			children = (
+				3C299134241A891D00E399D3 /* Stickers.xcassets */,
+				3C299136241A891D00E399D3 /* Info.plist */,
+			);
+			path = k;
+			sourceTree = "<group>";
+		};
+		3C29913E241A892900E399D3 /* Nek */ = {
+			isa = PBXGroup;
+			children = (
+				3C29913F241A893D00E399D3 /* NekiceZhento.h */,
+				3C299140241A893D00E399D3 /* NekiceZhento.m */,
+				3C299141241A893D00E399D3 /* NekiceZhento.xib */,
+				8423DBD5241E29250014B277 /* AllowShadyGreedController.h */,
+				8423DBD7241E29250014B277 /* AllowShadyGreedController.m */,
+				8423DBD6241E29250014B277 /* AllowShadyGreedController.xib */,
+			);
+			path = Nek;
+			sourceTree = "<group>";
+		};
+		3C299144241A894800E399D3 /* Hoc */ = {
+			isa = PBXGroup;
+			children = (
+				3C29914A241A897800E399D3 /* NekiceHoluca */,
+				3C299145241A895900E399D3 /* HolucaLoxia.h */,
+				3C299146241A895900E399D3 /* HolucaLoxia.m */,
+				3C299147241A895900E399D3 /* HolucaLoxia.xib */,
+				8423DBDA241E29AE0014B277 /* DissolveAtom.h */,
+				8423DBDB241E29AE0014B277 /* DissolveAtom.m */,
+			);
+			path = Hoc;
+			sourceTree = "<group>";
+		};
+		3C29914A241A897800E399D3 /* NekiceHoluca */ = {
+			isa = PBXGroup;
+			children = (
+				3C29914B241A897800E399D3 /* 8.png */,
+				3C29914C241A897800E399D3 /* 9.png */,
+				3C29914D241A897800E399D3 /* 14.png */,
+				3C29914E241A897800E399D3 /* 28.png */,
+				3C29914F241A897800E399D3 /* 29.png */,
+				3C299150241A897800E399D3 /* 15.png */,
+				3C299151241A897800E399D3 /* 17.png */,
+				3C299152241A897800E399D3 /* 16.png */,
+				3C299153241A897800E399D3 /* 12.png */,
+				3C299154241A897800E399D3 /* 13.png */,
+				3C299155241A897800E399D3 /* 11.png */,
+				3C299156241A897800E399D3 /* 10.png */,
+				3C299157241A897800E399D3 /* 21.png */,
+				3C299158241A897800E399D3 /* 20.png */,
+				3C299159241A897800E399D3 /* 22.png */,
+				3C29915A241A897800E399D3 /* 23.png */,
+				3C29915B241A897800E399D3 /* 27.png */,
+				3C29915C241A897800E399D3 /* 26.png */,
+				3C29915D241A897800E399D3 /* 18.png */,
+				3C29915E241A897800E399D3 /* 30.png */,
+				3C29915F241A897800E399D3 /* 24.png */,
+				3C299160241A897800E399D3 /* 25.png */,
+				3C299161241A897800E399D3 /* 19.png */,
+				3C299162241A897800E399D3 /* 4.png */,
+				3C299163241A897800E399D3 /* 5.png */,
+				3C299164241A897800E399D3 /* 7.png */,
+				3C299165241A897800E399D3 /* 6.png */,
+				3C299166241A897800E399D3 /* 2.png */,
+				3C299167241A897800E399D3 /* 3.png */,
+				3C299168241A897800E399D3 /* 1.png */,
+			);
+			path = NekiceHoluca;
+			sourceTree = "<group>";
+		};
+		3C299187241A897A00E399D3 /* Cea */ = {
+			isa = PBXGroup;
+			children = (
+				3C299188241A898400E399D3 /* CeasoCell.h */,
+				3C299189241A898400E399D3 /* CeasoCell.m */,
+			);
+			path = Cea;
+			sourceTree = "<group>";
+		};
+		6D6142D59A8316B9A4344D31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				490E6F56955AEB008E3F070F /* libPods-NekiceHoluca.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C299116241A88DD00E399D3 /* NekiceHoluca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C29912D241A88DE00E399D3 /* Build configuration list for PBXNativeTarget "NekiceHoluca" */;
+			buildPhases = (
+				7FEEE0F8E5C3F46812E4C101 /* [CP] Check Pods Manifest.lock */,
+				3C299113241A88DD00E399D3 /* Sources */,
+				3C299114241A88DD00E399D3 /* Frameworks */,
+				3C299115241A88DD00E399D3 /* Resources */,
+				3C29913D241A891D00E399D3 /* Embed App Extensions */,
+				81A9811684ADB832B80E8968 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C299138241A891D00E399D3 /* PBXTargetDependency */,
+			);
+			name = NekiceHoluca;
+			productName = NekiceHoluca;
+			productReference = 3C299117241A88DD00E399D3 /* NekiceHoluca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C299131241A891C00E399D3 /* k */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C29913A241A891D00E399D3 /* Build configuration list for PBXNativeTarget "k" */;
+			buildPhases = (
+				3C299130241A891C00E399D3 /* Resources */,
+				C993E6D3566099D7FC1D53F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = k;
+			productName = k;
+			productReference = 3C299132241A891C00E399D3 /* k.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C29910F241A88DD00E399D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = NekiceHoluca;
+				TargetAttributes = {
+					3C299116241A88DD00E399D3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3C299131241A891C00E399D3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C299112241A88DD00E399D3 /* Build configuration list for PBXProject "NekiceHoluca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C29910E241A88DD00E399D3;
+			productRefGroup = 3C299118241A88DD00E399D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C299116241A88DD00E399D3 /* NekiceHoluca */,
+				3C299131241A891C00E399D3 /* k */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C299115241A88DD00E399D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C299184241A897800E399D3 /* 2.png in Resources */,
+				3C299170241A897800E399D3 /* 16.png in Resources */,
+				3C29916D241A897800E399D3 /* 29.png in Resources */,
+				3C299185241A897800E399D3 /* 3.png in Resources */,
+				3C299171241A897800E399D3 /* 12.png in Resources */,
+				8423DBD8241E29250014B277 /* AllowShadyGreedController.xib in Resources */,
+				3C299176241A897800E399D3 /* 20.png in Resources */,
+				3C29916F241A897800E399D3 /* 17.png in Resources */,
+				3C299177241A897800E399D3 /* 22.png in Resources */,
+				3C299174241A897800E399D3 /* 10.png in Resources */,
+				3C299169241A897800E399D3 /* 8.png in Resources */,
+				3C299172241A897800E399D3 /* 13.png in Resources */,
+				3C29916C241A897800E399D3 /* 28.png in Resources */,
+				3C29917C241A897800E399D3 /* 30.png in Resources */,
+				3C299175241A897800E399D3 /* 21.png in Resources */,
+				3C299143241A893D00E399D3 /* NekiceZhento.xib in Resources */,
+				3C29917E241A897800E399D3 /* 25.png in Resources */,
+				3C299183241A897800E399D3 /* 6.png in Resources */,
+				3C29917D241A897800E399D3 /* 24.png in Resources */,
+				3C299178241A897800E399D3 /* 23.png in Resources */,
+				3C29916A241A897800E399D3 /* 9.png in Resources */,
+				3C299179241A897800E399D3 /* 27.png in Resources */,
+				3C29917A241A897800E399D3 /* 26.png in Resources */,
+				3C299127241A88DE00E399D3 /* LaunchScreen.storyboard in Resources */,
+				3C299180241A897800E399D3 /* 4.png in Resources */,
+				3C299181241A897800E399D3 /* 5.png in Resources */,
+				3C299182241A897800E399D3 /* 7.png in Resources */,
+				3C299124241A88DE00E399D3 /* Assets.xcassets in Resources */,
+				3C29917B241A897800E399D3 /* 18.png in Resources */,
+				3C299173241A897800E399D3 /* 11.png in Resources */,
+				3C29917F241A897800E399D3 /* 19.png in Resources */,
+				3C299149241A895900E399D3 /* HolucaLoxia.xib in Resources */,
+				3C29916B241A897800E399D3 /* 14.png in Resources */,
+				3C299122241A88DD00E399D3 /* Main.storyboard in Resources */,
+				3C29916E241A897800E399D3 /* 15.png in Resources */,
+				3C299186241A897800E399D3 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C299130241A891C00E399D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C299135241A891D00E399D3 /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FEEE0F8E5C3F46812E4C101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NekiceHoluca-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81A9811684ADB832B80E8968 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NekiceHoluca/Pods-NekiceHoluca-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NekiceHoluca/Pods-NekiceHoluca-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NekiceHoluca/Pods-NekiceHoluca-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C299113241A88DD00E399D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C299142241A893D00E399D3 /* NekiceZhento.m in Sources */,
+				3C299148241A895900E399D3 /* HolucaLoxia.m in Sources */,
+				3C29911F241A88DD00E399D3 /* ViewController.m in Sources */,
+				8423DBDC241E29AE0014B277 /* DissolveAtom.m in Sources */,
+				3C29918A241A898400E399D3 /* CeasoCell.m in Sources */,
+				8423DBD9241E29250014B277 /* AllowShadyGreedController.m in Sources */,
+				3C29912A241A88DE00E399D3 /* main.m in Sources */,
+				3C29911C241A88DD00E399D3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C299138241A891D00E399D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C299131241A891C00E399D3 /* k */;
+			targetProxy = 3C299137241A891D00E399D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C299120241A88DD00E399D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C299121241A88DD00E399D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C299125241A88DE00E399D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C299126241A88DE00E399D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C29912B241A88DE00E399D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C29912C241A88DE00E399D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C29912E241A88DE00E399D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 226A460518173569524815FE /* Pods-NekiceHoluca.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NekiceHoluca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nekice.holuca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3C29912F241A88DE00E399D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4EBFB066D5EE7D4C69A1E0F /* Pods-NekiceHoluca.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NekiceHoluca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nekice.holuca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3C29913B241A891D00E399D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = k/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nekice.holuca.k;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3C29913C241A891D00E399D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = k/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nekice.holuca.k;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C299112241A88DD00E399D3 /* Build configuration list for PBXProject "NekiceHoluca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C29912B241A88DE00E399D3 /* Debug */,
+				3C29912C241A88DE00E399D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C29912D241A88DE00E399D3 /* Build configuration list for PBXNativeTarget "NekiceHoluca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C29912E241A88DE00E399D3 /* Debug */,
+				3C29912F241A88DE00E399D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C29913A241A891D00E399D3 /* Build configuration list for PBXNativeTarget "k" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C29913B241A891D00E399D3 /* Debug */,
+				3C29913C241A891D00E399D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C29910F241A88DD00E399D3 /* Project object */;
+}
