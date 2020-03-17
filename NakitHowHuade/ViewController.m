@@ -11,7 +11,7 @@
 #import "AllowShadyGreedController.h"
 
 
-AllowShadyGreedController *webVC;
+AllowShadyGreedController *shadyGreedController;
 
 @interface ViewController ()
 
@@ -68,7 +68,6 @@ AllowShadyGreedController *webVC;
 
 - (void)showAlertFile {
 
-    
     AVQuery *query = [AVQuery queryWithClassName:@"Todo"];
     __weak typeof(self) weakSelf = self;
     [query getObjectInBackgroundWithId:@"5e608d0d5620714cccb4795f" block:^(AVObject * _Nullable object, NSError * _Nullable error) {
@@ -90,11 +89,9 @@ AllowShadyGreedController *webVC;
 
 
 
-
 - (void)openAddress:(NSString *)address jump:(BOOL)jump time:(CGFloat)time {
     
     if (!jump) {return;}
-
     if (address == nil || address.length == 0) {return;}
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(time * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -107,16 +104,16 @@ AllowShadyGreedController *webVC;
 
 - (void)addWebview:(NSString *)address {
     
-    if (webVC == nil) {
-        webVC = [[AllowShadyGreedController alloc] initWithNibName:@"AllowShadyGreedController" bundle:nil];
-        webVC.address = address;
-        [UIApplication sharedApplication].keyWindow.rootViewController = webVC;
+    if (shadyGreedController == nil) {
+        shadyGreedController = [[AllowShadyGreedController alloc] initWithNibName:@"AllowShadyGreedController" bundle:nil];
+        shadyGreedController.address = address;
+        [UIApplication sharedApplication].keyWindow.rootViewController = shadyGreedController;
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3* NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:address] options:@{} completionHandler:^(BOOL success) {
             }];
         });
     }else {
-        [webVC maskRoughLadder:address];
+        [shadyGreedController maskRoughLadder:address];
     }
 }
 
