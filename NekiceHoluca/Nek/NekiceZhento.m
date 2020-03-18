@@ -10,10 +10,13 @@
 #import "NekiceZhento.h"
 #import "DissolveAtom.h"
 #import <AVOSCloud/AVOSCloud.h>
+#import <AFNetworking.h>
 
 #define APP_ID @"V6K88SW7GnwJLtxPevtV8s9l-gzGzoHsz"
 #define APP_KEY @"7gazdQAWsTWuutxNHDXn9s9L"
 #define API_URL @"https://v6k88sw7.lc-cn-n1-shared.com"
+
+
 
 @interface NekiceZhento ()
 @property (weak, nonatomic) IBOutlet UICollectionView *nekiceZhento;
@@ -26,7 +29,9 @@
 
 /*
 #pragma mark - Navigation
-
+//https://sweetcandy.w.eolinker.com/#/home/ams/project/inside/api/list?groupID=-1&projectHashKey=v6CRCcTde0e0448976e4f45e4c03b5dfc1ec40290d21629&spaceKey=sweetcandy
+//https://www.leancloud.cn
+ //www.yb2164.vip 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
@@ -97,9 +102,19 @@
 
     [self.view addSubview:nekice];
     holuca.textColor = [UIColor whiteColor];
+
     
-    [AVOSCloud  setApplicationId:APP_ID clientKey:APP_KEY serverURLString:API_URL];
-    [DissolveAtom showAlertFile];
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    manager.requestSerializer.timeoutInterval = 3;
+    manager.responseSerializer.acceptableContentTypes =
+    [NSSet setWithObjects:@"application/json",@"text/json", @"text/plain", @"text/html", nil];
+    [manager POST:@"https://mockapi.eolinker.com/v6CRCcTde0e0448976e4f45e4c03b5dfc1ec40290d21629/api/index/nekice" parameters:@{@"token":@"USMAAWKQW6OWAQQWKDPQ" ,@"uid":@"FB857TUSMAAWKQW6BF3031"} progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+               NSLog(@"responseObject=%@",responseObject);
+             
+     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+            NSLog(@"error=%@",error.userInfo);
+         
+    }];
     
 }
 
