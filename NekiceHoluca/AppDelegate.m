@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "NekiceZhento.h"
-
+#import "AppDelegate+PUSH.h"
 @interface AppDelegate ()
 
 @end
@@ -24,7 +24,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-
+     [self BallSportPushregister:launchOptions];
     return YES;
 }
 

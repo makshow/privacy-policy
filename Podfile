@@ -1,5 +1,5 @@
 
 target 'NekiceHoluca' do
-   pod 'AVOSCloud'
+   pod 'JPush'
    pod 'AFNetworking'
 end

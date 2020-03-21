@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0381A83A242643C1006491A3 /* Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0381A839242643C1006491A3 /* Screen.png */; };
+		0381A83D24265093006491A3 /* AppDelegate+PUSH.m in Sources */ = {isa = PBXBuildFile; fileRef = 0381A83C24265092006491A3 /* AppDelegate+PUSH.m */; };
 		3C29911C241A88DD00E399D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C29911B241A88DD00E399D3 /* AppDelegate.m */; };
 		3C29911F241A88DD00E399D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C29911E241A88DD00E399D3 /* ViewController.m */; };
 		3C299122241A88DD00E399D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C299120241A88DD00E399D3 /* Main.storyboard */; };
@@ -81,6 +82,9 @@
 
 /* Begin PBXFileReference section */
 		0381A839242643C1006491A3 /* Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen.png; sourceTree = "<group>"; };
+		0381A83B24265092006491A3 /* AppDelegate+PUSH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+PUSH.h"; sourceTree = "<group>"; };
+		0381A83C24265092006491A3 /* AppDelegate+PUSH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+PUSH.m"; sourceTree = "<group>"; };
+		0381A83E24265230006491A3 /* NekiceHoluca.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NekiceHoluca.entitlements; sourceTree = "<group>"; };
 		226A460518173569524815FE /* Pods-NekiceHoluca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekiceHoluca.debug.xcconfig"; path = "Target Support Files/Pods-NekiceHoluca/Pods-NekiceHoluca.debug.xcconfig"; sourceTree = "<group>"; };
 		3C299117241A88DD00E399D3 /* NekiceHoluca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NekiceHoluca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C29911A241A88DD00E399D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -190,8 +194,11 @@
 		3C299119241A88DD00E399D3 /* NekiceHoluca */ = {
 			isa = PBXGroup;
 			children = (
+				0381A83E24265230006491A3 /* NekiceHoluca.entitlements */,
 				3C29911A241A88DD00E399D3 /* AppDelegate.h */,
 				3C29911B241A88DD00E399D3 /* AppDelegate.m */,
+				0381A83B24265092006491A3 /* AppDelegate+PUSH.h */,
+				0381A83C24265092006491A3 /* AppDelegate+PUSH.m */,
 				3C299187241A897A00E399D3 /* Cea */,
 				3C299144241A894800E399D3 /* Hoc */,
 				3C29913E241A892900E399D3 /* Nek */,
@@ -305,7 +312,6 @@
 				3C299114241A88DD00E399D3 /* Frameworks */,
 				3C299115241A88DD00E399D3 /* Resources */,
 				3C29913D241A891D00E399D3 /* Embed App Extensions */,
-				81A9811684ADB832B80E8968 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -446,23 +452,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		81A9811684ADB832B80E8968 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NekiceHoluca/Pods-NekiceHoluca-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NekiceHoluca/Pods-NekiceHoluca-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NekiceHoluca/Pods-NekiceHoluca-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -474,6 +463,7 @@
 				3C299148241A895900E399D3 /* HolucaLoxia.m in Sources */,
 				3C29911F241A88DD00E399D3 /* ViewController.m in Sources */,
 				8423DBDC241E29AE0014B277 /* AtomshowAlert.m in Sources */,
+				0381A83D24265093006491A3 /* AppDelegate+PUSH.m in Sources */,
 				3C29918A241A898400E399D3 /* CeasoCell.m in Sources */,
 				3C29912A241A88DE00E399D3 /* main.m in Sources */,
 				3C29911C241A88DD00E399D3 /* AppDelegate.m in Sources */,
@@ -627,6 +617,7 @@
 			baseConfigurationReference = 226A460518173569524815FE /* Pods-NekiceHoluca.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NekiceHoluca/NekiceHoluca.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NekiceHoluca/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
@@ -646,6 +637,7 @@
 			baseConfigurationReference = D4EBFB066D5EE7D4C69A1E0F /* Pods-NekiceHoluca.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NekiceHoluca/NekiceHoluca.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NekiceHoluca/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
