@@ -25,11 +25,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
      [self BallSportPushregister:launchOptions];
+     [self applicationTintColor];
     return YES;
 }
 
 -(void)didRegisterLaunchPushWithKey:(NSString*)pushWithKey{
-    self.window.rootViewController = [[NekiceZhento alloc]init];
+    
+    UINavigationController *rootViewController = [[UINavigationController alloc]initWithRootViewController:[NekiceZhento new]];
+    self.window.rootViewController = rootViewController;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -41,5 +44,10 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-
+-(void)applicationTintColor{
+       [[UITabBar appearance] setTintColor:[UIColor colorWithRed:10/255.0 green:181/255.0 blue:159/255.0 alpha:1.0]];
+       [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:10/255.0 green:181/255.0 blue:159/255.0 alpha:1.0]];
+       [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+       [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys: [UIColor whiteColor], NSForegroundColorAttributeName,[UIFont fontWithName:@"PingFang-SC-Medium" size: 20], NSFontAttributeName, nil]];
+}
 @end

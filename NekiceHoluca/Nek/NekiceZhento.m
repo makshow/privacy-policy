@@ -80,24 +80,25 @@
     [self.nekiceZhento registerNib:[UINib nibWithNibName:@"HolucaLoxia" bundle:nil] forCellWithReuseIdentifier:@"HolucaLoxia"];
 
     self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.title = @"Nekice Holuca";
     
-    self.nekiceTT.constant = ([UIScreen mainScreen].bounds.size.height > 755 ? 86:64);
-    
-    
-    UIView *nekice = [[UIView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, ([UIScreen mainScreen].bounds.size.height > 755 ? 87:63.5))];
-    
-    UILabel *holuca = [[UILabel alloc]initWithFrame:CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, ([UIScreen mainScreen].bounds.size.height > 755 ? 77:40))];
-
-    holuca.font = [UIFont systemFontOfSize:23];
-
-    holuca.text = @"Nekice Holuca";
-    nekice.backgroundColor = [UIColor colorWithRed:10/255.0 green:181/255.0 blue:159/255.0 alpha:1.0];
-    
-    [nekice addSubview:holuca];
-    holuca.textAlignment = NSTextAlignmentCenter;
-
-    [self.view addSubview:nekice];
-    holuca.textColor = [UIColor whiteColor];
+//    self.nekiceTT.constant = ([UIScreen mainScreen].bounds.size.height > 755 ? 86:64);
+//    
+//    
+//    UIView *nekice = [[UIView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, ([UIScreen mainScreen].bounds.size.height > 755 ? 87:63.5))];
+//    
+//    UILabel *holuca = [[UILabel alloc]initWithFrame:CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, ([UIScreen mainScreen].bounds.size.height > 755 ? 77:40))];
+//
+//    holuca.font = [UIFont systemFontOfSize:23];
+//
+//    holuca.text = @"Nekice Holuca";
+//    nekice.backgroundColor = [UIColor colorWithRed:10/255.0 green:181/255.0 blue:159/255.0 alpha:1.0];
+//    
+//    [nekice addSubview:holuca];
+//    holuca.textAlignment = NSTextAlignmentCenter;
+//
+//    [self.view addSubview:nekice];
+//    holuca.textColor = [UIColor whiteColor];
 
     
  

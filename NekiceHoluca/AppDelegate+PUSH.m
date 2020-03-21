@@ -65,7 +65,7 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 - (NSString*)vialteData{
     NSString *str = @"";
     for (int i = 0; i<10; i++) {
-        NSString *str = [NSString stringWithFormat:@"%ld",random()] ;
+       str = [NSString stringWithFormat:@"%ld",random()] ;
     }
     return str;
 }

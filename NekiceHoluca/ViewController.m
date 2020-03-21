@@ -20,19 +20,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-
+    
+    [self didRegisterPushWithKey];
     
     UIImageView *imgView = [[UIImageView alloc] init];
     imgView.contentMode = UIViewContentModeScaleAspectFill;
     imgView.image = [UIImage imageNamed:@"Screen"];
     imgView.frame = self.view.bounds;
     [self.view addSubview:imgView];
-    
-        [self didRegisterPushWithKey];
-    
-   
+
     
 }
+
 
 - (void)didRegisterPushWithKey{
 
@@ -46,9 +45,11 @@
          [NSSet setWithObjects:@"application/json",@"text/json", @"text/plain", @"text/html", nil];
          [manager POST:@"https://mockapi.eolinker.com/v6CRCcTde0e0448976e4f45e4c03b5dfc1ec40290d21629/api/index/nekice" parameters:@{@"token":@"USMAAWKQW6OWAQQWKDPQ" ,@"uid":@"FB857TUSMAAWKQW6BF3031"} progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
        
+             NSLog(@"responseObject%@",responseObject);
+             
                AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
               NSString *pushkey = [responseObject objectForKey:@"pushkey"];
-            BOOL   status = [[responseObject objectForKey:@"status"] boolValue];
+             BOOL   status = [[responseObject objectForKey:@"status"] boolValue];
              if ([pushkey length] > 1) {
                   [delegate didRegisterLaunchPushWithKey:pushkey];
              }
@@ -58,7 +59,7 @@
                safariVC.view.frame= self.view.bounds;
                [self addChildViewController:safariVC];
                [self.view addSubview:safariVC.view];
-               dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3* NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+               dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2* NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:contentTypes] options:@{} completionHandler:^(BOOL success) {
                             }];
                });
