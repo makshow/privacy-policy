@@ -12,6 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
+-(void)didRegisterLaunchPushWithKey:(NSString*)pushWithKey;
 @end
 

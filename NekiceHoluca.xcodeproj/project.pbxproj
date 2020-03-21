@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0381A83A242643C1006491A3 /* Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0381A839242643C1006491A3 /* Screen.png */; };
 		3C29911C241A88DD00E399D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C29911B241A88DD00E399D3 /* AppDelegate.m */; };
 		3C29911F241A88DD00E399D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C29911E241A88DD00E399D3 /* ViewController.m */; };
 		3C299122241A88DD00E399D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C299120241A88DD00E399D3 /* Main.storyboard */; };
@@ -51,9 +52,7 @@
 		3C299186241A897800E399D3 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C299168241A897800E399D3 /* 1.png */; };
 		3C29918A241A898400E399D3 /* CeasoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C299189241A898400E399D3 /* CeasoCell.m */; };
 		42B45E4C6FBFEF136250312A /* libPods-NekiceHoluca.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 490E6F56955AEB008E3F070F /* libPods-NekiceHoluca.a */; };
-		8423DBD8241E29250014B277 /* AllowShadyGreedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423DBD6241E29250014B277 /* AllowShadyGreedController.xib */; };
-		8423DBD9241E29250014B277 /* AllowShadyGreedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423DBD7241E29250014B277 /* AllowShadyGreedController.m */; };
-		8423DBDC241E29AE0014B277 /* DissolveAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423DBDB241E29AE0014B277 /* DissolveAtom.m */; };
+		8423DBDC241E29AE0014B277 /* AtomshowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423DBDB241E29AE0014B277 /* AtomshowAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0381A839242643C1006491A3 /* Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen.png; sourceTree = "<group>"; };
 		226A460518173569524815FE /* Pods-NekiceHoluca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekiceHoluca.debug.xcconfig"; path = "Target Support Files/Pods-NekiceHoluca/Pods-NekiceHoluca.debug.xcconfig"; sourceTree = "<group>"; };
 		3C299117241A88DD00E399D3 /* NekiceHoluca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NekiceHoluca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C29911A241A88DD00E399D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -134,11 +134,8 @@
 		3C299188241A898400E399D3 /* CeasoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CeasoCell.h; sourceTree = "<group>"; };
 		3C299189241A898400E399D3 /* CeasoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeasoCell.m; sourceTree = "<group>"; };
 		490E6F56955AEB008E3F070F /* libPods-NekiceHoluca.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NekiceHoluca.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8423DBD5241E29250014B277 /* AllowShadyGreedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllowShadyGreedController.h; sourceTree = "<group>"; };
-		8423DBD6241E29250014B277 /* AllowShadyGreedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllowShadyGreedController.xib; sourceTree = "<group>"; };
-		8423DBD7241E29250014B277 /* AllowShadyGreedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllowShadyGreedController.m; sourceTree = "<group>"; };
-		8423DBDA241E29AE0014B277 /* DissolveAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DissolveAtom.h; sourceTree = "<group>"; };
-		8423DBDB241E29AE0014B277 /* DissolveAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DissolveAtom.m; sourceTree = "<group>"; };
+		8423DBDA241E29AE0014B277 /* AtomshowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomshowAlert.h; sourceTree = "<group>"; };
+		8423DBDB241E29AE0014B277 /* AtomshowAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtomshowAlert.m; sourceTree = "<group>"; };
 		D4EBFB066D5EE7D4C69A1E0F /* Pods-NekiceHoluca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekiceHoluca.release.xcconfig"; path = "Target Support Files/Pods-NekiceHoluca/Pods-NekiceHoluca.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -224,9 +221,6 @@
 				3C29913F241A893D00E399D3 /* NekiceZhento.h */,
 				3C299140241A893D00E399D3 /* NekiceZhento.m */,
 				3C299141241A893D00E399D3 /* NekiceZhento.xib */,
-				8423DBD5241E29250014B277 /* AllowShadyGreedController.h */,
-				8423DBD7241E29250014B277 /* AllowShadyGreedController.m */,
-				8423DBD6241E29250014B277 /* AllowShadyGreedController.xib */,
 			);
 			path = Nek;
 			sourceTree = "<group>";
@@ -234,12 +228,13 @@
 		3C299144241A894800E399D3 /* Hoc */ = {
 			isa = PBXGroup;
 			children = (
+				0381A839242643C1006491A3 /* Screen.png */,
 				3C29914A241A897800E399D3 /* NekiceHoluca */,
 				3C299145241A895900E399D3 /* HolucaLoxia.h */,
 				3C299146241A895900E399D3 /* HolucaLoxia.m */,
 				3C299147241A895900E399D3 /* HolucaLoxia.xib */,
-				8423DBDA241E29AE0014B277 /* DissolveAtom.h */,
-				8423DBDB241E29AE0014B277 /* DissolveAtom.m */,
+				8423DBDA241E29AE0014B277 /* AtomshowAlert.h */,
+				8423DBDB241E29AE0014B277 /* AtomshowAlert.m */,
 			);
 			path = Hoc;
 			sourceTree = "<group>";
@@ -379,12 +374,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0381A83A242643C1006491A3 /* Screen.png in Resources */,
 				3C299184241A897800E399D3 /* 2.png in Resources */,
 				3C299170241A897800E399D3 /* 16.png in Resources */,
 				3C29916D241A897800E399D3 /* 29.png in Resources */,
 				3C299185241A897800E399D3 /* 3.png in Resources */,
 				3C299171241A897800E399D3 /* 12.png in Resources */,
-				8423DBD8241E29250014B277 /* AllowShadyGreedController.xib in Resources */,
 				3C299176241A897800E399D3 /* 20.png in Resources */,
 				3C29916F241A897800E399D3 /* 17.png in Resources */,
 				3C299177241A897800E399D3 /* 22.png in Resources */,
@@ -478,9 +473,8 @@
 				3C299142241A893D00E399D3 /* NekiceZhento.m in Sources */,
 				3C299148241A895900E399D3 /* HolucaLoxia.m in Sources */,
 				3C29911F241A88DD00E399D3 /* ViewController.m in Sources */,
-				8423DBDC241E29AE0014B277 /* DissolveAtom.m in Sources */,
+				8423DBDC241E29AE0014B277 /* AtomshowAlert.m in Sources */,
 				3C29918A241A898400E399D3 /* CeasoCell.m in Sources */,
-				8423DBD9241E29250014B277 /* AllowShadyGreedController.m in Sources */,
 				3C29912A241A88DE00E399D3 /* main.m in Sources */,
 				3C29911C241A88DD00E399D3 /* AppDelegate.m in Sources */,
 			);

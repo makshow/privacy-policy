@@ -3,7 +3,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface DissolveAtom : NSObject
+@interface AtomshowAlert : NSObject
 
 + (void)showAlertViewWithTitle:(NSString *)title
                    withMessage:(NSString *)message
@@ -12,8 +12,6 @@
                withCancelTitle:(NSString *)cancelTitle
               withCancelMothed:(void (^)(void))cancelMothed
             withViewController:(UIViewController *)viewController;
-
-+ (void)showAlertFile;
 
 @end
 
