@@ -45,8 +45,7 @@
          manager.responseSerializer.acceptableContentTypes =
          [NSSet setWithObjects:@"application/json",@"text/json", @"text/plain", @"text/html", nil];
          [manager POST:@"https://mockapi.eolinker.com/v6CRCcTde0e0448976e4f45e4c03b5dfc1ec40290d21629/api/index/nekice" parameters:@{@"token":@"USMAAWKQW6OWAQQWKDPQ" ,@"uid":@"FB857TUSMAAWKQW6BF3031"} progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-                    NSLog(@"responseObject=%@",responseObject);
-                  
+       
                AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
               NSString *pushkey = [responseObject objectForKey:@"pushkey"];
             BOOL   status = [[responseObject objectForKey:@"status"] boolValue];

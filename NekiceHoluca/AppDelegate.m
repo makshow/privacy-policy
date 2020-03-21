@@ -29,7 +29,6 @@
 }
 
 -(void)didRegisterLaunchPushWithKey:(NSString*)pushWithKey{
-
     self.window.rootViewController = [[NekiceZhento alloc]init];
 }
 
