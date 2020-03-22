@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "NekiceZhento.h"
 #import "AppDelegate+PUSH.h"
+#import <Firebase.h>
 @interface AppDelegate ()
 
 @end
@@ -26,6 +27,7 @@
     // Override point for customization after application launch.
      [self BallSportPushregister:launchOptions];
      [self applicationTintColor];
+     [FIRApp configure];
     return YES;
 }
 
