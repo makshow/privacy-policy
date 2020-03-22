@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03643BA224273C6F002754AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03643BA124273C6F002754AD /* GoogleService-Info.plist */; };
+		03643BA9242742F3002754AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03643BA8242742F3002754AD /* GoogleService-Info.plist */; };
 		0381A83D24265093006491A3 /* AppDelegate+PUSH.m in Sources */ = {isa = PBXBuildFile; fileRef = 0381A83C24265092006491A3 /* AppDelegate+PUSH.m */; };
 		0381A85C2426570B006491A3 /* Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0381A85B2426570B006491A3 /* Screen.png */; };
 		3C29911C241A88DD00E399D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C29911B241A88DD00E399D3 /* AppDelegate.m */; };
@@ -82,7 +82,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		03643BA124273C6F002754AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		03643BA8242742F3002754AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0381A83B24265092006491A3 /* AppDelegate+PUSH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+PUSH.h"; sourceTree = "<group>"; };
 		0381A83C24265092006491A3 /* AppDelegate+PUSH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+PUSH.m"; sourceTree = "<group>"; };
 		0381A83E24265230006491A3 /* NekiceHoluca.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NekiceHoluca.entitlements; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 				3C29911B241A88DD00E399D3 /* AppDelegate.m */,
 				0381A83B24265092006491A3 /* AppDelegate+PUSH.h */,
 				0381A83C24265092006491A3 /* AppDelegate+PUSH.m */,
-				03643BA124273C6F002754AD /* GoogleService-Info.plist */,
+				03643BA8242742F3002754AD /* GoogleService-Info.plist */,
 				3C299187241A897A00E399D3 /* Cea */,
 				3C299144241A894800E399D3 /* Hoc */,
 				3C29913E241A892900E399D3 /* Nek */,
@@ -390,7 +390,7 @@
 				3C299185241A897800E399D3 /* 3.png in Resources */,
 				3C299171241A897800E399D3 /* 12.png in Resources */,
 				3C299176241A897800E399D3 /* 20.png in Resources */,
-				03643BA224273C6F002754AD /* GoogleService-Info.plist in Resources */,
+				03643BA9242742F3002754AD /* GoogleService-Info.plist in Resources */,
 				3C29916F241A897800E399D3 /* 17.png in Resources */,
 				3C299177241A897800E399D3 /* 22.png in Resources */,
 				3C299174241A897800E399D3 /* 10.png in Resources */,

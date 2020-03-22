@@ -6,7 +6,7 @@
 //  Copyright © 2019 fk. All rights reserved.
 //
 
-#define PushKey @"7dc3103d8879704592757901"
+#define PushKey @"63d6efb98317d43df601d527"
 
 #import "AppDelegate+PUSH.h"
 
