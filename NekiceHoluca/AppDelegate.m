@@ -25,7 +25,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    //账号：twwve54@163.com 密码：Aa104123 
+    //账号：twwve54@163.com 密码：Aa104123
      [self BallSportPushregister:launchOptions];
      [self applicationTintColor];
      [FIRApp configure];
