@@ -43,12 +43,12 @@
 
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:. 78 194 248
 }
 
 -(void)applicationTintColor{
-       [[UITabBar appearance] setTintColor:[UIColor colorWithRed:10/255.0 green:181/255.0 blue:159/255.0 alpha:1.0]];
-       [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:10/255.0 green:181/255.0 blue:159/255.0 alpha:1.0]];
+       [[UITabBar appearance] setTintColor:[UIColor colorWithRed:78/255.0 green:194/255.0 blue:248/255.0 alpha:1.0]];
+       [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:78/255.0 green:194/255.0 blue:248/255.0 alpha:1.0]];
        [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
        [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys: [UIColor whiteColor], NSForegroundColorAttributeName,[UIFont fontWithName:@"PingFang-SC-Medium" size: 20], NSFontAttributeName, nil]];
 }
